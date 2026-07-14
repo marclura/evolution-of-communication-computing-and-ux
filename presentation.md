@@ -2,9 +2,13 @@
 
 ---
 
-# Computing as problem-solving (Prehistory → Ancient Times)
+### (Prehistory → Ancient Times)
+
+# Computing as problem-solving
 
 ## Computing started as *problem-solving*, not machines.
+
+
 
 ---
 
@@ -32,9 +36,13 @@ The shift from hunter-gatherer societies to agriculture and cities created a "da
 
 ---
 
-# The First Networks (Prehistory → 1700s)
+### (Prehistory → 1700s)
+
+# The First Networks
 
 ## Figuring out how to "encode" information into physical signals
+
+
 
 ---
 
@@ -64,7 +72,7 @@ Extremely low bandwidth. You could only send pre-agreed, simple concepts like "d
 
 ---
 
-## The Optical Telegraph / Semaphore (1790s - Claude Chappe)
+## Optical Telegraph / Semaphore (1790s - Claude Chappe)
 
 ![Semaphore](/images/semaphore.jpg)
 ![Semaphore](/images/semaphore2.jpg)
@@ -91,7 +99,9 @@ It relied entirely on human eyesight and clear weather. If it was foggy or dark,
 
 ---
 
-# Mechanical Calculation (1600s–1800s)
+### (1600s–1800s)
+
+# Mechanical Calculation
 
 ## Separation of hardware & instructions
 
@@ -140,7 +150,11 @@ Invented **punch cards** to control the loom. The machine (hardware) was separat
 
 ---
 
-## The Analytical Engine (1830s) & Ada Lovelace
+## The Analytical Engine (1830s) and Ada Lovelace
+
+![](/images/analytical-engine.webp)
+![](/images/1842%20-%20Ada%20Lovelace.png)
+
 
 👎 Before → Calculators limited to one math operation
 
@@ -158,13 +172,18 @@ Babbage applied punch cards to a math machine. Lovelace wrote the first algorith
 
 ---
 
-# The Electronic Telegraph & The Telephone (1830s–1880s)
+###  (1830s–1880s)
 
-## Sending data through invisible wires
+# The Telegraph and Telephone
+
+## Sending data through wires
 
 ---
 
 ## Electromagnetism (1831 - Michael Faraday)
+
+![](/images/faraday.jpg)
+![](/images/electomagnetism.gif)
 
 👎 Before → Electricity and magnetism seen as unrelated
 
@@ -182,6 +201,9 @@ Discovered that electricity and magnetism are two sides of the same coin. This i
 ---
 
 ## The Electric Telegraph (1837 - Samuel Morse)
+
+
+
 
 👎 Before → Optical telegraph failed in bad weather
 
@@ -227,7 +249,9 @@ It introduced the concept of **analog signals**. For the next 100 years, the glo
 
 ---
 
-# The Radio & The Atlantic Cables (1890s–1910s)
+### (1890s–1910s)
+
+# The Radio & The Atlantic Cables
 
 ## Defeating the wires (Wireless communication)
 
@@ -273,7 +297,9 @@ Laying massive cables across the ocean floor physically linked the continents, a
 
 ---
 
-# Early Computing Machines (1900–1940s)
+### (1900–1940s)
+
+# Early Computing Machines
 
 ## Computers become electronic + universal
 
@@ -321,7 +347,9 @@ Vacuum tubes were a massive leap over gears, but they were huge, consumed massiv
 
 ---
 
-# The Breakthrough of the Century (1947)
+### (1947)
+
+# The Breakthrough of the Century
 
 ## From fragile glass bulbs to solid rock
 
@@ -349,7 +377,9 @@ Transistors were tiny, cheap, consumed almost no power, and never burned out. Wi
 
 ---
 
-# The Birth of Programming (1940s–1950s)
+### (1940s–1950s)
+
+# The Birth of Programming
 
 ## Coding becomes human-readable
 
@@ -391,7 +421,9 @@ Programmers could now write `PRINT "HELLO"` instead of `10101010`. Coding time d
 
 ---
 
-# The Software & Chip Era (1960s–1970s)
+### (1960s–1970s)
+
+# The Software & Chip Era
 
 ## Software ecosystems begin & computers shrink
 
@@ -433,7 +465,9 @@ As computers got faster, they needed an "Operating System" to manage the hardwar
 
 ---
 
-# Personal Computers (1970s–1980s)
+### (1970s–1980s)
+
+# Personal Computers
 
 ## Computers move from labs to homes
 
@@ -493,7 +527,9 @@ The Macintosh brought the mouse and clickable icons. You didn't need a manual an
 
 ---
 
-# The Network Revolution (1960s–1990s)
+### (1960s–1990s)
+
+# The Network Revolution
 
 ## Computers become connected
 
@@ -553,7 +589,9 @@ JavaScript was invented to make web pages *react* to the user (clicks, pop-ups, 
 
 ---
 
-# Modern Programming & Telecom (2000s–2010s)
+### (2000s–2010s)
+
+# Modern Programming & Telecom
 
 ## Coding becomes accessible + The Cloud + Wireless freedom
 
@@ -613,7 +651,9 @@ By turning voice and data into high-speed digital packets, mobile networks final
 
 ---
 
-# The Smartphone (2007 - iPhone)
+### (2007 - present)
+
+# The Smartphone
 
 ## The computer fits in your pocket
 
@@ -637,7 +677,9 @@ The iPhone put a full microprocessor, high-speed internet connection, and advanc
 
 ---
 
-# The Web Era (1990s–2010s)
+### (1990s–2010s)
+
+# The Web Era
 
 ## The internet evolves from read-only to interactive, then to decentralized
 
@@ -715,7 +757,9 @@ It is currently highly experimental, hard to scale, and complex for everyday use
 
 ---
 
-# Today (2020s–2026)
+### (2020 – today)
+
+# Artificial Intelligence
 
 ## Computers are now collaborators
 

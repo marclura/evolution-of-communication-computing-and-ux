@@ -17,16 +17,9 @@
         font-size: 10px;
       }
       .reveal img {
-        object-fit: contain;
-      }
-      .reveal .before {
-
-      }
-      .reveal .innovation {
-
-      }
-      .reveal .flow {
-
+        max-height: 60vh;
+        max-width: 40%;
+        min-width: 25%;
       }
     </style>
   </head>
@@ -52,10 +45,10 @@
         slideNumber: 'c/t',
         progress: true,
         plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ],
-        minScale: 0.2,
+        minScale: 0.5,
         maxScale: 2.0,
-        width: 2000,
-        height: 1300,
+        width: 1920,
+        height: 1200,
       });
     </script>
   </body>
