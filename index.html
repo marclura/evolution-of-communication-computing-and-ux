@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>History of Computing</title>
+    <!-- Load reveal.js CSS from CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reset.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/theme/simple.css" id="theme" />
+    <!-- Plugin CSS for Notes and Markdown -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/notes/notes.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/highlight/monokai.css" />
+
+    <style>
+      html {
+        font-size: 10px;
+      }
+      .reveal img {
+        object-fit: contain;
+      }
+      .reveal .before {
+
+      }
+      .reveal .innovation {
+
+      }
+      .reveal .flow {
+
+      }
+    </style>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <!-- This loads your Markdown file. Make sure the src matches your filename exactly -->
+        <section data-markdown="presentation.md" data-separator="^---$" data-separator-vertical="^\^\^\-$" data-separator-notes="^Note:"></section>
+      </div>
+    </div>
+
+    <!-- Load reveal.js core JS from CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.js"></script>
+    <!-- Load Plugins from CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/markdown/markdown.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/highlight/highlight.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/notes/notes.js"></script>
+
+    <script>
+      // Initialize reveal.js
+      Reveal.initialize({
+        hash: true,
+        slideNumber: 'c/t',
+        progress: true,
+        plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ],
+        minScale: 0.2,
+        maxScale: 2.0,
+        width: 2000,
+        height: 1300,
+      });
+    </script>
+  </body>
+</html>
