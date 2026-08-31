@@ -2,23 +2,27 @@
 
 ---
 
-### (Prehistory → Ancient Times)
-
 # Computing as problem-solving
 
 ## Computing started as *problem-solving*, not machines.
 
+---
 
+## (Prehistory 300.000 B.C. → Ancient Times 3200 B.C.)
+
+![Bones](/images/bone_counting.png)
+
+Humans had to rely on their biological memory or make marks on sticks
 
 ---
 
-## The Abacus (~2500 BCE)
+## Calculation (3200 B.C to 1600 A.C.)
 
-![Abacus](/images/abacus.jpg)
+The shift from hunter-gatherer societies to agriculture and cities created a "data problem"
 
-👎 Before → Relying on biological memory or tallies
+Human memory alone couldn't solve it (grain storage, taxes, trades, ...)
 
-💡 Innovation → Externalized memory using physical beads
+**Innovation -> Externalized memory using physical devices**
 
 Note:
 
@@ -34,15 +38,49 @@ The abacus "externalized" memory. Instead of holding numbers in your head, you u
 
 The shift from hunter-gatherer societies to agriculture and cities created a "data problem" that human memory alone couldn't solve.
 
+
 ---
 
-### (Prehistory → 1700s)
+<figure>
+  <img src="/images/abacus-mesopotamian.png" alt="Abacus-mesopotamian">
+  <figcaption>Mesopotamian Abacus - 2700/3200 B.C.</figcaption>
+</figure>
+
+<figure>
+  <img src="/images/abacus-china.jpg" alt="Abacus-china">
+  <figcaption>Chinese abacus, Suanpan - 200 B.C.</figcaption>
+</figure>
+
+
+---
+
+<figure>
+  <img src="/images/100_roman.webp" alt="Abacus-roman">
+  <figcaption>Roman abacus - 100 A.C.</figcaption>
+</figure>
+
+<figure>
+  <img src="/images/1500_inca_abacus_Quipu.webp" alt="Abacus-inca">
+  <figcaption>Inca abacus - 1500 A.C.</figcaption>
+</figure>
+
+---
+
+# Communication
+
+If you wanted to share information with the next village, someone had to physically walk, run or ride there
+
+It could take hours or days
+
+
+---
+
+
+### Antiquity
 
 # The First Networks
 
 ## Figuring out how to "encode" information into physical signals
-
-
 
 ---
 
@@ -50,11 +88,9 @@ The shift from hunter-gatherer societies to agriculture and cities created a "da
 
 ![Smoke](/images/smoke.jpg)
 
-👎 Before → Physical delivery of the message
+Innovation → encoded messages into a physical medium
 
-💡 Innovation → Encoded messages into a physical medium
-
-🤦‍♂️ Flaw → Only pre-agreed simple concepts
+Flaw → Only pre-agreed simple concepts (because of the low bandwidth)
 
 Note:
 
@@ -77,11 +113,9 @@ Extremely low bandwidth. You could only send pre-agreed, simple concepts like "d
 ![Semaphore](/images/semaphore.jpg)
 ![Semaphore](/images/semaphore2.jpg)
 
-👎 Before → Limited by the speed of a horse
+Innovation → Mechanical relay network with higher bandwidth
 
-💡 Innovation → Mechanical relay network with higher bandwidth
-
-🤦‍♂️ Flaw → Required line-of-sight and clear weather
+Flaw → Required line-of-sight, clear weather and day light to work
 
 Note:
 
@@ -107,14 +141,23 @@ It relied entirely on human eyesight and clear weather. If it was foggy or dark,
 
 ---
 
+![Use of an abacus, as illustrated in Margarita philosophica - 1503](/images/manual-calculation.jpg)
+
+All math was done by hand on paper or with an abacus.
+
+Humans made constant errors when doing long, tedious calculations like tax rolls or astronomical measurements.
+
+---
+
+
 ## Pascaline (1642) & Leibniz Calculator (1670s)
 
 ![Pascaline](/images/pascaline.jpg)
 ![Leibniz](/images/leibniz.jpg)
 
-👎 Before → Manual math prone to human error
+Automated calculations with physical gears to automatically carry over numbers
 
-💡 Innovation → Automated calculations with physical gears
+It automated tedious human math and drastically reduced human error
 
 Note:
 
@@ -130,13 +173,26 @@ These machines used physical *gears* to automatically carry over numbers. It aut
 
 ## Jacquard Loom (1804)
 
+# The birth of programmable machines
+
+Jaquard invented a loom that used punched cards to automate weaving.
+
+It wasn't just a textile revolution, it was a computing revolution
+
+---
+
+
+## Jacquard Loom (1804)
+
 ![](/images/1800_punch_textile.webp)
 ![](/images/1800_Jacquard-cards-2.jpg)
 ![](/images/1800_card-maker.jpg)
 
-👎 Before → Manual tying and untying of threads
+Looming required tying and untying of threads manually.
 
-💡 Innovation → Punch cards separated hardware and instructions
+**Innovation → Punch cards separated hardware and instructions (external storage)**
+
+Punch cards = Binary logic (holes = 1, no holes = 0)
 
 Note:
 
@@ -148,17 +204,33 @@ To create a complex pattern in fabric, a weaver had to manually tie and untie hu
 
 Invented **punch cards** to control the loom. The machine (hardware) was separated from the pattern (instructions/software). Change the cards, change the pattern instantly.
 
+
 ---
 
-## The Analytical Engine (1830s) and Ada Lovelace
+## Charles Babbage, the Analytical Engine (1830s)
 
 ![](/images/analytical-engine.webp)
+
+Babbage used the Jaquard loom idea to do mathematics
+
+His Analytical Engine was the first **mechanical computer** that used:
+
+- Punched cards as input → instructions
+- Conditional branching → modern *if* statement
+- Memory storage → precoursor to RAM
+
+**Universal machines** that can perform any computation given the right instruction
+
+---
+
+##  Ada Lovelace, the first programmer (1843)
+
 ![](/images/1842%20-%20Ada%20Lovelace.png)
+![](/images/ada-lovelace-algorithm.jpg)
 
+Lovelace published the first algorithm for the Babbage's Analytical Engine
 
-👎 Before → Calculators limited to one math operation
-
-💡 Innovation → Universal machine using punch cards and algorithms
+Visionary recognition that computers could do more than math (music, art, etc.)
 
 Note:
 
@@ -172,11 +244,34 @@ Babbage applied punch cards to a math machine. Lovelace wrote the first algorith
 
 ---
 
-###  (1830s–1880s)
+### (1700s - 1800s)
 
-# The Telegraph and Telephone
+# The birth of electrical communication
 
-## Sending data through wires
+## The pioneers of electricity and electromagnetism
+
+
+---
+
+## Electricity (1752 - Benjaming Franklin)
+
+![](/images/Benjamin_Franklin.jpg)
+![](/images/1952%20-%20Franklin.jpg)
+
+Proved electricity exists and defined its positive and negative charges
+
+*Electricity: the flow of electric charges*
+
+---
+
+## Battery (1800 - Alessandro Volta)
+
+![](/images/Alessandro_Volta.jpeg)
+![](/images/1800%20volta.jpeg)
+
+Invented the first battery (Voltaic Pile)
+
+*Battery: a device that stores chemical energy and provides a steady flow of electric charge*
 
 ---
 
@@ -185,9 +280,9 @@ Babbage applied punch cards to a math machine. Lovelace wrote the first algorith
 ![](/images/faraday.jpg)
 ![](/images/electomagnetism.gif)
 
-👎 Before → Electricity and magnetism seen as unrelated
+Discovered that electricity and magnetism are linked (electromagnetic induction)
 
-💡 Innovation → Unified electricity and magnetism
+Pioneered electric motors and generators throught his discovery
 
 Note:
 
@@ -200,16 +295,37 @@ Discovered that electricity and magnetism are two sides of the same coin. This i
 
 ---
 
+## Relays (1835 - Joseph Henry)
+
+![](/images/1870s_Joseph_Henry_(1797-1878)_American_physicist,_inventor_and_first_secretary_of_the_Smithsonian_Institution_(cropped).jpg)
+![](/images/1831%20-%20relays-animation.gif)
+
+Improved electromagnets and invented the relay, a key technology for long‑distance telegraph circuits
+
+*Relays: electromagnetic switches that use a small current to control a larger one*
+
+---
+
+###  (1830s–1880s)
+
+# The Telegraph and Telephone
+
+## Sending data through wires
+
+---
+
 ## The Electric Telegraph (1837 - Samuel Morse)
 
+![](/images/1830%20telegraph%20schema.jpg)
+![](/images/1830_international_morse.png)
 
+Digital encoding is used to transmit data (manually decoded by an operator)
 
+Before → Optical Telegraph (1790s - Claude Chappe) failed in bad weather or night
 
-👎 Before → Optical telegraph failed in bad weather
+Innovation → Electrical pulses through wires using Morse Code
 
-💡 Innovation → Electrical pulses through wires using Morse Code
-
-🤦‍♂️ Flaw → Required trained human operators
+Flaw → Required trained human operators to translate dot and dashes
 
 Note:
 
@@ -227,11 +343,37 @@ It required trained human operators to manually translate the dots and dashes. I
 
 ---
 
+## The Transatlantic Telegraph Cable (1866)
+
+![](/images/1901_Eastern_Telegraph_cables.png)
+
+Before → Communication across oceans took weeks via ship / navigation
+
+Innovation → Physical ocean floor cables linking continents instantly
+
+Note:
+
+##### Before this
+
+Sending a message between Europe and the Americas required putting a letter on a boat. It took weeks, meaning business and governments operated on a massive delay.
+
+##### Why it was a breakthrough
+
+Laying massive cables across the ocean floor physically linked the continents, allowing data to cross the Atlantic in minutes. It was the first time the world was "networked" physically.
+
+---
+
 ## The Telephone (1876 - Alexander Graham Bell)
 
-👎 Before → Telegraph could only send discrete coded signals
+![](/images/Alexander_Graham_Bell_1895_NPG_77_363.jpg)
+![](/images/The%20Telephone%201876%20-%20Alexander%20Graham%20Bell.png)
 
-💡 Innovation → Converted sound waves into continuous electrical waves
+
+Before → Telegraph could only send coded signals (binary, dashes and dots, words and numbers)
+
+Innovation → Converted sound waves (voice) into continuous electrical waves
+
+User experice → people could hear human voices and emotions
 
 Note:
 
@@ -249,9 +391,58 @@ It introduced the concept of **analog signals**. For the next 100 years, the glo
 
 ---
 
+###  (1880s - 1910s)
+
+# Electrification, light bulb and vacuum tubes
+
+## AC vs. DC power
+
+---
+
+## Light bulb and DC power (1879 - Thomas Edison)
+
+
+![](/images/Thomas_Edison2.jpg)
+![](/images/1879%20Edison%20bulb.jpg)
+![](/images/1880%20-%20electrification.png)
+
+Improved the incandescent light bulb to make it a usable product (better materials, vacuum)
+
+Created the first **large-scale electric power system** (DC power, power stations, wiring, meters)
+
+Invented the **phonograph** (record audio into a physical support)
+
+
+---
+
+## AC power transmission (1890 - Nikola Tesla)
+
+![](/images/Tesla_circa_1890.jpeg)
+![](/images/Nikola_Tesla,_with_his_equipment_Wellcome_M0014782_-_restoration2.jpg)
+
+Pioneer of AC (Alternating Current) electricity and modern power systems and transmission
+
+Developed the AC induction motor
+
+---
+
+## Vacuum tube (1904 - John Ambrose Fleming)
+
+![](/images/John_Ambrose_Fleming_1890.png)
+![](/images/vacuum_tube.jpg)
+![](/images/vacuum_tube_2.jpg)
+
+Electronic switch and amplifier
+
+Faster with not moving parts compared to relays
+
+Hot, big and power hungry
+
+---
+
 ### (1890s–1910s)
 
-# The Radio & The Atlantic Cables
+# The Radio
 
 ## Defeating the wires (Wireless communication)
 
@@ -259,9 +450,15 @@ It introduced the concept of **analog signals**. For the next 100 years, the glo
 
 ## Radio / Wireless Telegraphy (1895 - Guglielmo Marconi)
 
-👎 Before → Physical wires required between points
+![](/images/Guglielmo_Marconi.jpg)
+![](/images/1895%20-%20radio.jpg)
 
-💡 Innovation → Invisible electromagnetic radio waves
+Uses antennas and electromagnetic waves to send telegraph signals wirelessly over long distances
+
+Without this discovery, Wi-Fi, Bluetooth, and mobile data would not exist
+
+It forced the invention of the **vacuum tube** to amplify weak radio signals
+
 
 Note:
 
@@ -279,37 +476,25 @@ This introduced the concept of the **wireless spectrum**. Without this discovery
 
 ---
 
-## The Transatlantic Telegraph Cable (1866) & Global Cables
-
-👎 Before → Messages across oceans took weeks
-
-💡 Innovation → Physical ocean floor cables linking continents
-
-Note:
-
-##### Before this
-
-Sending a message between Europe and the Americas required putting a letter on a boat. It took weeks, meaning business and governments operated on a massive delay.
-
-##### Why it was a breakthrough
-
-Laying massive cables across the ocean floor physically linked the continents, allowing data to cross the Atlantic in minutes. It was the first time the world was "networked" physically.
-
----
-
 ### (1900–1940s)
 
 # Early Computing Machines
 
-## Computers become electronic + universal
+## Computers become electronic and universal
 
 ---
 
 ## The Theory of Computing (1936 - Alan Turing)
 
-👎 Before → Specific machines needed for specific problems
+![](/images/Alan_turing_header.jpg)
 
-💡 Innovation → Universal machine concept using instructions
+He described the **universal machine (Turing machine)** as an abstract model of a computer that can be programmed
+
+Its key idea is that **one machine can perform any computable task** if given the right instructions
+
+No need for a different machine for each problem
+
+(central role in breaking the **Enigma code** during WWII)
 
 Note:
 
@@ -320,6 +505,21 @@ If you wanted a machine to solve a new math problem, you had to build a complete
 ##### Why it was a breakthrough
 
 Turing proved that a single, simple machine (the "Turing Machine") could solve *any* solvable problem, just by changing its instructions. We didn't need a different machine for every problem—we just needed one "Universal" machine and code.
+
+---
+
+## Z3 - Konrad Zuse (1941)
+
+![](/images/1941%20-%20Z3.jpeg)
+![](/images/Z3_punch_film.png)
+
+First functional, program-controlled, fully automatic digital computer
+
+It was binary and used floating-point numbers (with comma), key features of modern architectures
+
+The code was punched (written) on 35mm film because cheap and easily available
+
+It used about 2000 relays with a clock frequency of 5-10 Hz (about 2-4 FLOPS)
 
 ---
 
