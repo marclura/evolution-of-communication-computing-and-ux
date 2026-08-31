@@ -316,8 +316,8 @@ Improved electromagnets and invented the relay, a key technology for long‑dist
 
 ## The Electric Telegraph (1837 - Samuel Morse)
 
-![](/images/1830%20telegraph%20schema.jpg)
-![](/images/1830_international_morse.png)
+![](/images/Samuel_Morse_with_his_Recorder_by_Brady,_1857.png)
+![](/images/telegraph_device.png)
 
 Digital encoding is used to transmit data (manually decoded by an operator)
 
@@ -340,6 +340,12 @@ Used electromagnetism to send electrical pulses through buried copper wires. It 
 ##### The Flaw
 
 It required trained human operators to manually translate the dots and dashes. It was digital, but manual.
+
+---
+
+![](/images/1830%20telegraph%20schema.jpg)
+
+![](/images/1830_international_morse.png)
 
 ---
 
@@ -510,26 +516,35 @@ Turing proved that a single, simple machine (the "Turing Machine") could solve *
 
 ## Z3 - Konrad Zuse (1941)
 
-![](/images/1941%20-%20Z3.jpeg)
-![](/images/Z3_punch_film.png)
+![](/images/konrad-zuse-z3-d-museum800jpg.webp)
 
 First functional, program-controlled, fully automatic digital computer
 
 It was binary and used floating-point numbers (with comma), key features of modern architectures
 
+It was based on relays
+
+---
+
+![](/images/Z3_punch_film.png)
+![](/images/1941%20-%20Z3.jpeg)
+
 The code was punched (written) on 35mm film because cheap and easily available
 
-It used about 2000 relays with a clock frequency of 5-10 Hz (about 2-4 FLOPS)
+It used about 2000 relays with a clock frequency of 5-10 Hz (about **2-4 FLOPS**)
 
 ---
 
 ## ENIAC (1945)
 
-👎 Before → Mechanical gears limited calculation speed
+![](/images/1947%20-%20ENIAC%20Glen_Beck_and_Betty_Snyder_program_the_ENIAC_in_building_328_at_the_Ballistic_Research_Laboratory.jpg)
 
-💡 Innovation → General-purpose electronic computer using vacuum tubes
+Build by the U.S. Army to originally compute artillery firing range tables and shell trajectories (differential equations)
 
-🤦‍♂️ Flaw → Huge, power-hungry, and hard to rewire
+It has been use also for advanced calculation on the Manhattan Project (nucelar enery and weapons)
+
+Very fast for at the time beacuse it used **vacuum tubes** and was huge
+
 
 Note:
 
@@ -547,6 +562,20 @@ Vacuum tubes were a massive leap over gears, but they were huge, consumed massiv
 
 ---
 
+![](/images/1945%20-%20ENIAC%20Classic_shot_of_the_ENIAC.jpg)
+
+It had 18'000 vacuum tubes and 1'500 relays
+
+It weighted 27'000kg, 2 meters tall and 30 meters long
+
+It consumed about 150kW of power (equivalent to about 9 typical houses, 17kW)
+
+It had a clock frequency of 5'000Hz, able to do 385 multiplication or 5'000 additions per second
+
+(about **500 FLOPS**)
+
+---
+
 ### (1947)
 
 # The Breakthrough of the Century
@@ -555,11 +584,13 @@ Vacuum tubes were a massive leap over gears, but they were huge, consumed massiv
 
 ---
 
-## The Transistor (Invented at Bell Labs)
+## The Transistor (1947 - Bell Labs)
 
-👎 Before → Vacuum tubes were fragile and burned out
+![](/images/1947-transistor.png)
 
-💡 Innovation → Solid silicon switches replacing vacuum tubes
+Solid silicon switches that replaced the vacuum tubes (fragile and burned out)
+
+Transistors were tiny, cheap, consumed almost no power and never burned out
 
 Note:
 
@@ -577,6 +608,20 @@ Transistors were tiny, cheap, consumed almost no power, and never burned out. Wi
 
 ---
 
+![](/images/1947-transisto-patent.jpg)
+
+Instead of a fragile glass bulb (vaccum tubes) a transistor is a tiny piece of solid silicon (a semiconductor)
+
+It uses a small electrical current to turn another current on or off
+
+---
+
+![](/images/1947%20transistor%20form%20factors.jpg)
+
+They come in different shapes and sizes with different properties for different applications
+
+---
+
 ### (1940s–1950s)
 
 # The Birth of Programming
@@ -585,11 +630,16 @@ Transistors were tiny, cheap, consumed almost no power, and never burned out. Wi
 
 ---
 
-## The Compiler (1950s - Grace Hopper)
+## The Compiler (1952 - Grace Hopper)
 
-👎 Before → Programs written in absolute machine code
+![](/images/Grace_Hopper_and_UNIVAC.jpg)
+![](/images/500px-Grace_Murray_Hopper,_in_her_office_in_Washington_DC,_1978,_©Lynn_Gilbert.jpg)
 
-💡 Innovation → Translating English words into machine code
+Programmers had to write instructions in absolute machine code (long strings of `1`s and `0`s`)
+
+Only specific machine's hardware could understand those instructions
+
+Hopper realized that if a computer could do math, it could translate English words into machine code automatically
 
 Note:
 
@@ -603,11 +653,52 @@ Hopper realized that if a computer could do math, it could translate English wor
 
 ---
 
-## FORTRAN (1957) & COBOL (1959)
+![](/images/Hopper_machine_code.png)
+![](/images/Hopper_flow_matic.png)
 
-👎 Before → Months of writing binary codes by hand
+A program was specified as a sequence of subroutines and its arguments
 
-💡 Innovation → Human-readable programming languages
+The subroutines were identified by a numeric code
+
+A-2 system (second version of Hopper compiler), was provided to customer that were invited to send back their improvements
+
+It can be considered an example of the early philosophy of **free and open-source software** (FOSS)
+
+---
+
+
+## FORTRAN (1957) and COBOL (1959)
+
+
+### FORTRAN
+
+```fortran
+program hello
+  print *, 'Hello, World!'
+end program hello
+```
+### COBOL
+
+```cobol
+IDENTIFICATION DIVISION.
+PROGRAM-ID. HELLO-WORLD.
+
+ENVIRONMENT DIVISION.
+
+DATA DIVISION.
+
+PROCEDURE DIVISION.
+000-MAIN-PROCEDURE.
+    DISPLAY "HELLO WORLD!".
+    STOP RUN.
+
+```
+
+Programmers could **write human** readeable code instead of machine code.
+
+Coding time dropped from months to hours
+
+Machine-independent languages that could be compiled into different machine codes for different computers
 
 Note:
 
@@ -621,19 +712,60 @@ Programmers could now write `PRINT "HELLO"` instead of `10101010`. Coding time d
 
 ---
 
+## Compiled code for UNIVAC I
+
+```
+; UNIVAC I-style pseudo machine code for Hello World
+0000: U01000   ; U 01000  – unconditional transfer to 1000 (start)
+1000: B02010   ; B 02010  – load A from address 210 (pointer to text)
+1006: Y03000   ; Y 03000  – print from address 300 through 359 (HSP)
+1012: 900000   ; 90 0000  – STOP UNIVAC (halt)
+
+0210: 00300    ; word containing address 300 (start of text)
+0300: HELLO,   ; "HELLO,"   (alphanumeric chars in UNIVAC I code)
+0301:  WORLD!  ; " WORLD!"  (continuation of the string)
+0302: §        ; end-of-text marker (implementation-dependent)
+
+```
+
+---
+
+## One code for many machines
+
+![](/images/Compiler-diagram.png)
+
+
+---
+
+## COBOL (curiosities)
+
+About **40% of the core global banking system** are build on COBOL (220-800+ billions of lines of code)
+
+COBOL systems handle about **3 Trillion of dollars in transaction per day!**
+
+About **95% of ATM transactions** still run on COBOL code
+
+Banks and governments are actively seeking for new COBOL developers to maintain the systems beacuse the original workforce is retireing. They do pay well.
+
+---
+
 ### (1960s–1970s)
 
-# The Software & Chip Era
+# The Software and Chip Era
 
-## Software ecosystems begin & computers shrink
+## Software ecosystems begin and computers shrink
 
 ---
 
 ## The Integrated Circuit / Microchip (1958-1971)
 
-👎 Before → Hand-wiring thousands of individual transistors
+![](/images/500px-Intel_C4004.jpg)
+![](/images/Intel_4004_open.png)
+![](/images/Chip_layout_from_the_development_phase_of_the_Intel_4004_from_1971,_the_first_microprocessor_of_the_world.jpg)
 
-💡 Innovation → Printing thousands of transistors on one chip
+Printing thousands of transistors on one chip (silicon), avoiding wireing thousands of individual transistors by hand
+
+The computer "brains" become microscopic, cheap and reliable
 
 Note:
 
@@ -647,11 +779,62 @@ Scientists figured out how to print thousands of transistors onto a single tiny 
 
 ---
 
-## UNIX (1969) & C Language (1972)
 
-👎 Before → Software written for one specific machine
+## Intel 4004 vs. ENIAC
 
-💡 Innovation → Portable operating system and language
+<table border="1">
+  <thead>
+    <tr>
+      <th>Specification</th>
+      <th>ENIAC</th>
+      <th>Intel 4004</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Clock frequency</td>
+      <td>5'000 Hz</td>
+      <td>750'000 Hz</td>
+    </tr>
+    <tr>
+      <td>Number of transistors / components</td>
+      <td>18'000 tubes (not transistors)</td>
+      <td>2'300 transistors</td>
+    </tr>
+    <tr>
+      <td>Operations per second (approx.)</td>
+      <td>500 operations per second</td>
+      <td>100'000 operations per second</td>
+    </tr>
+    <tr>
+      <td>Power consumption</td>
+      <td>150'000 W</td>
+      <td>< 1 W</td>
+    </tr>
+    <tr>
+      <td>Physical size</td>
+      <td>30 &times; 2 m</td>
+      <td>2 &times; 1 cm</td>
+    </tr>
+    <tr>
+      <td>Weight</td>
+      <td>27 tons (27'000'000g)</td>
+      <td>1.3 g</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+## UNIX Operating System (1969 - Bell Labs)
+
+
+As computers got faster, they needed an "Operating System (OS)" to manage the hardware. UNIX did that.
+
+The **C language** was invented to write UNIX. It was fast and portable
+
+Write once, run anywhere. (it could be run on different machines thanks to the OS "layer")
+
 
 Note:
 
@@ -662,6 +845,10 @@ Software was written for one specific machine. If you upgraded your hardware, yo
 ##### Why it was a breakthrough
 
 As computers got faster, they needed an "Operating System" to manage the hardware. UNIX did this. The C language was invented to write UNIX. C was fast but portable—you could run it on *different* types of machines. Write once, run anywhere.
+
+---
+
+## C Language (1972)
 
 ---
 

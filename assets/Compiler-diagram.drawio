@@ -1,0 +1,52 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="oUZStshrvF7l7ae-ezey">
+    <mxGraphModel dx="939" dy="661" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Eh-kyzcV2sKXftw7Yn-D-13" edge="1" parent="1" source="Eh-kyzcV2sKXftw7Yn-D-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Eh-kyzcV2sKXftw7Yn-D-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh-kyzcV2sKXftw7Yn-D-14" edge="1" parent="1" source="Eh-kyzcV2sKXftw7Yn-D-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Eh-kyzcV2sKXftw7Yn-D-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh-kyzcV2sKXftw7Yn-D-15" edge="1" parent="1" source="Eh-kyzcV2sKXftw7Yn-D-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Eh-kyzcV2sKXftw7Yn-D-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh-kyzcV2sKXftw7Yn-D-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="HUMAN READABLE CODE" vertex="1">
+          <mxGeometry height="110" width="230" x="30" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh-kyzcV2sKXftw7Yn-D-2" parent="Eh-kyzcV2sKXftw7Yn-D-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;span&gt;&lt;span class=&quot;hljs-function&quot; style=&quot;font-size: 14px; margin: 0px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-stretch: inherit; line-height: inherit; font-family: monospace; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-language-override: inherit; vertical-align: baseline; color: rgb(221, 221, 221); white-space: pre;&quot;&gt;&lt;span class=&quot;hljs-keyword&quot; style=&quot;margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: bold; font-stretch: inherit; line-height: inherit; font-family: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-language-override: inherit; vertical-align: baseline; color: rgb(249, 38, 114);&quot;&gt;program&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 14px; color: rgb(221, 221, 221); font-family: monospace; white-space: pre;&quot;&gt; hello&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;hljs-built_in&quot; style=&quot;font-size: 14px; margin: 0px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-stretch: inherit; line-height: inherit; font-family: monospace; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-language-override: inherit; vertical-align: baseline; color: rgb(166, 226, 46); white-space: pre;&quot;&gt;print&lt;/span&gt;&lt;span style=&quot;font-size: 14px; color: rgb(221, 221, 221); font-family: monospace; white-space: pre;&quot;&gt; *, &lt;/span&gt;&lt;span class=&quot;hljs-string&quot; style=&quot;font-size: 14px; margin: 0px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-stretch: inherit; line-height: inherit; font-family: monospace; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-language-override: inherit; vertical-align: baseline; color: rgb(166, 226, 46); white-space: pre;&quot;&gt;&#39;Hello, World!&#39;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;hljs-keyword&quot; style=&quot;font-size: 14px; margin: 0px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-weight: bold; font-stretch: inherit; line-height: inherit; font-family: monospace; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-language-override: inherit; vertical-align: baseline; color: rgb(249, 38, 114); white-space: pre;&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;hljs-keyword&quot; style=&quot;font-size: 14px; margin: 0px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-stretch: inherit; line-height: inherit; font-family: monospace; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-language-override: inherit; vertical-align: baseline; white-space: pre; color: rgb(249, 38, 114);&quot;&gt;&lt;font color=&quot;#dddddd&quot;&gt; &lt;/font&gt;&lt;/span&gt;&lt;span class=&quot;hljs-function&quot; style=&quot;font-size: 14px; margin: 0px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-stretch: inherit; line-height: inherit; font-family: monospace; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-language-override: inherit; vertical-align: baseline; color: rgb(221, 221, 221); white-space: pre;&quot;&gt;&lt;span class=&quot;hljs-keyword&quot; style=&quot;margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: bold; font-stretch: inherit; line-height: inherit; font-family: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-language-override: inherit; vertical-align: baseline; color: rgb(249, 38, 114);&quot;&gt;program&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 14px; color: rgb(221, 221, 221); font-family: monospace; white-space: pre;&quot;&gt; hello&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="210" x="10" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh-kyzcV2sKXftw7Yn-D-16" edge="1" parent="1" source="Eh-kyzcV2sKXftw7Yn-D-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Eh-kyzcV2sKXftw7Yn-D-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh-kyzcV2sKXftw7Yn-D-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Compiler for Computer 1" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh-kyzcV2sKXftw7Yn-D-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Machine code for computer 1" vertex="1">
+          <mxGeometry height="60" width="132" x="580" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh-kyzcV2sKXftw7Yn-D-17" edge="1" parent="1" source="Eh-kyzcV2sKXftw7Yn-D-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Eh-kyzcV2sKXftw7Yn-D-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh-kyzcV2sKXftw7Yn-D-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Compiler for Computer 2" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh-kyzcV2sKXftw7Yn-D-18" edge="1" parent="1" source="Eh-kyzcV2sKXftw7Yn-D-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Eh-kyzcV2sKXftw7Yn-D-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh-kyzcV2sKXftw7Yn-D-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Compiler for Computer 3" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh-kyzcV2sKXftw7Yn-D-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Machine code for computer 2" vertex="1">
+          <mxGeometry height="60" width="132" x="580" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh-kyzcV2sKXftw7Yn-D-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Machine code for computer 3" vertex="1">
+          <mxGeometry height="60" width="132" x="580" y="440" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
