@@ -739,7 +739,9 @@ Programmers could now write `PRINT "HELLO"` instead of `10101010`. Coding time d
 
 ## COBOL (curiosities)
 
-About **40% of the core global banking system** are build on COBOL (220-800+ billions of lines of code)
+![](/images/cobol_banks.png)
+
+About **40% of the current core global banking system** are build on COBOL (220-800+ billions of lines of code)
 
 COBOL systems handle about **3 Trillion of dollars in transaction per day!**
 
@@ -757,11 +759,13 @@ Banks and governments are actively seeking for new COBOL developers to maintain 
 
 ---
 
-## The Integrated Circuit / Microchip (1958-1971)
+## Intel 4004 Integtated Circuit / Microchip (1971)
 
 ![](/images/500px-Intel_C4004.jpg)
 ![](/images/Intel_4004_open.png)
 ![](/images/Chip_layout_from_the_development_phase_of_the_Intel_4004_from_1971,_the_first_microprocessor_of_the_world.jpg)
+
+The Intel 4004 was the first of the Intel Central Processing Units (CPU)
 
 Printing thousands of transistors on one chip (silicon), avoiding wireing thousands of individual transistors by hand
 
@@ -776,6 +780,16 @@ Engineers had to wire thousands of individual transistors together by hand on ma
 ##### Why it was a breakthrough
 
 Scientists figured out how to print thousands of transistors onto a single tiny silicon chip at once (Intel 4004 in 1971). This made computer "brains" microscopic, cheap, and reliable.
+
+---
+
+## Before and after
+
+![](/images/discrete-circuit-electronics-without%20board.jpg)
+![](/images/univac-discrete-transisotr-board.jpg)
+![](/images/intel_4004_designers.jpg)
+
+From components connected with wires, to Printed Circuit Boards (PCB) and to Integrated Circuits (IC)
 
 ---
 
@@ -814,7 +828,7 @@ Scientists figured out how to print thousands of transistors onto a single tiny 
     <tr>
       <td>Physical size</td>
       <td>30 &times; 2 m</td>
-      <td>2 &times; 1 cm</td>
+      <td>3 &times; 4 m</td>
     </tr>
     <tr>
       <td>Weight</td>
@@ -826,14 +840,17 @@ Scientists figured out how to print thousands of transistors onto a single tiny 
 
 ---
 
-## UNIX Operating System (1969 - Bell Labs)
+## UNIX Operating System and C language (1969 - Bell Labs)
 
+![](/images/Ritchie_Thompson_2876612463_a6e651248c_o.jpg)
 
-As computers got faster, they needed an "Operating System (OS)" to manage the hardware. UNIX did that.
+Developed by Ritchie and Ken Thompson (they developed C to build UNIX)
 
-The **C language** was invented to write UNIX. It was fast and portable
+As computers got faster, they needed an "Operating System (OS)" to manage the hardware
 
-Write once, run anywhere. (it could be run on different machines thanks to the OS "layer")
+UNIX added multi-user, multitasking, portability, hierarchical file system, permissions and system call interface (shell)
+
+Linux and MacOS are based on UNIX
 
 
 Note:
@@ -848,7 +865,89 @@ As computers got faster, they needed an "Operating System" to manage the hardwar
 
 ---
 
+<div style="display: flex">
+  <figure>
+    <img src="/images/early-pc-diagram.webp"
+        alt="Program and hardware structure of ENIAC and Z3">
+    <figcaption>
+      ENIAC and Z3 — program or instructions directly controlling the hardware,
+      without a conventional operating system
+    </figcaption>
+  </figure>
+  <figure>
+    <img src="/images/OS-diagram.webp"
+        alt="Modern UNIX-like computer system with applications, operating system, display, input-output, and network">
+    <figcaption>
+      Modern UNIX-like system — applications running above the operating system,
+      which manages the hardware, display, I/O, and network
+    </figcaption>
+  </figure>
+</div>
+
+---
+
+## The Operating System (OS) interface
+
+![](/images/teletype.gif)
+![](/images/unix-terminal.png)
+![](/images/original_mac.webp)
+
+From teletypes that printed on paper, to screen terminals and the current Graphical User Interface (GUI)
+
+---
+
 ## C Language (1972)
+
+```
+#include <stdio.h>
+
+int main() {
+    printf("Hello, World!\n");
+    return 0;
+}
+```
+
+The **C language** was invented to write the UNIX Operating System
+
+Write once, run anywhere. (it could be run on different machines thanks to the OS "layer").
+
+Most of the common software are build largely on C or C++ (successor):
+
+Linux, Windows and macOS componets, Chrome, Safari, Python, JavaScript, MySQL, Git, Adobe Suite, Unity and Unreal Engine, and countless games, mobile apps and embedded systems
+---
+
+## C language innovation
+
+<table>
+  <thead>
+    <tr>
+      <th>Feature</th>
+      <th>Why it was revolutionary</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>High-level structure</td>
+      <td>Functions, loops, variables, and readable syntax.</td>
+    </tr>
+    <tr>
+      <td>Low-level control</td>
+      <td>Direct memory access, pointers, and bit manipulation.</td>
+    </tr>
+    <tr>
+      <td>Portability</td>
+      <td>UNIX could be moved to different computers with relatively little new machine code.</td>
+    </tr>
+    <tr>
+      <td>Efficiency</td>
+      <td>C programs ran nearly as fast as assembly.</td>
+    </tr>
+    <tr>
+      <td>Small compiler</td>
+      <td>It worked well on limited hardware.</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
@@ -860,29 +959,18 @@ As computers got faster, they needed an "Operating System" to manage the hardwar
 
 ---
 
-## The Microprocessor (1971)
+## The first all-in-one home computers (1970s)
 
-👎 Before → CPU made of multiple separate chips
+![](/images/first_personal_computers.jpg)
 
-💡 Innovation → Entire CPU on a single tiny chip
+Commodore PET (1977) -  Apple II (1979) - Radio Shack TRS-80 Model I (1977)
 
-Note:
+Before computers were locked in universities and corporate labs: to use one, you had to book it and punch cards
 
-##### Before this
+Everyday people, schools and small business could now use computers for games, writing and finances
 
-A computer's CPU was made of dozens of separate chips spread across a large board. It was too expensive and bulky for personal use.
+They could be programmed with BASIC (programming language), easy to learn
 
-##### Why it was a breakthrough
-
-The Intel 4004 put a whole computer "Central Processing Unit" (CPU) onto one tiny chip. It was cheap enough for hobbyists to buy.
-
----
-
-## Apple II (1977) & IBM PC (1981)
-
-👎 Before → Computers locked in university and corporate labs
-
-💡 Innovation → Personal computers for everyday people
 
 Note:
 
@@ -898,9 +986,15 @@ Apple and IBM realized everyday people could use them for games, writing, and fi
 
 ## The Graphical User Interface / GUI (1984 - Apple Macintosh)
 
-👎 Before → Typing text commands on a blank screen
+![](/images/original_mac.webp)
 
-💡 Innovation → Mouse and clickable icons
+The first mass-market GUI computer with the mouse was the Apple Machintosh in 1984
+
+Before everything was typed with the keyboard into a command line interface
+
+A big innovation was the **mouse** (single button) with **point-and-click** as standard
+
+
 
 Note:
 
@@ -911,6 +1005,30 @@ Using a computer meant typing text commands on a blank screen (`C:\ copy file.tx
 ##### Why it was a breakthrough
 
 The Macintosh brought the mouse and clickable icons. You didn't need a manual anymore; you just pointed at a picture of a folder and dragged it.
+
+---
+
+## The break trough
+
+![](/images/mac_gui_CLI.png)
+![](/images/mac_gui_01.png)
+
+The GUI avoided having to memorize commands
+
+It introduced the **drag-and-drop, double-click, pull-down menus**
+
+This made computer intuitive for non-technical users
+
+---
+
+## GUI innovations
+
+![](/images/mac_gui_02.png)
+![](/images/mac_gui_03.png)
+
+It inspired the entire industry (Microsoft Adobe, etc.)
+
+It proved that computers could be **creative tools**, not just calculators (Ada Lovelace, 1800s)
 
 ---
 

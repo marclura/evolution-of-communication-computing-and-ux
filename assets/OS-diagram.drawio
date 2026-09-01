@@ -1,0 +1,68 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="vM97HPO40NqXi95Ekq6q">
+    <mxGraphModel dx="1148" dy="807" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="light-dark(#ffffff, #121212)" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6vPUCvPgHk3eAOqjZDoX-11" parent="1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="Operating System (OS)" vertex="1">
+          <mxGeometry height="230" width="460" x="150" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="6vPUCvPgHk3eAOqjZDoX-29" edge="1" parent="6vPUCvPgHk3eAOqjZDoX-11" source="6vPUCvPgHk3eAOqjZDoX-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=block;startFill=1;" target="6vPUCvPgHk3eAOqjZDoX-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6vPUCvPgHk3eAOqjZDoX-10" parent="6vPUCvPgHk3eAOqjZDoX-11" style="swimlane;whiteSpace=wrap;html=1;" value="System Call Interface (Shell)" vertex="1">
+          <mxGeometry height="70" width="345" x="68.75" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6vPUCvPgHk3eAOqjZDoX-26" parent="6vPUCvPgHk3eAOqjZDoX-10" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Management between the user programs and the kernel" vertex="1">
+          <mxGeometry height="30" width="345" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6vPUCvPgHk3eAOqjZDoX-12" parent="6vPUCvPgHk3eAOqjZDoX-11" style="swimlane;whiteSpace=wrap;html=1;" value="Kernel" vertex="1">
+          <mxGeometry height="70" width="345" x="68.75" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="6vPUCvPgHk3eAOqjZDoX-25" parent="6vPUCvPgHk3eAOqjZDoX-12" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Control of processes, files and hardware" vertex="1">
+          <mxGeometry height="30" width="345" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6vPUCvPgHk3eAOqjZDoX-18" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Hardware" vertex="1">
+          <mxGeometry height="70" width="437.5" x="172.5" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="6vPUCvPgHk3eAOqjZDoX-19" parent="6vPUCvPgHk3eAOqjZDoX-18" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CPU,&amp;nbsp; GPU (Graphic Card), RAM, Disks, Network, Periferics (I/O)" vertex="1">
+          <mxGeometry height="30" width="410" x="13.75" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6vPUCvPgHk3eAOqjZDoX-24" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="User programs and applications" vertex="1">
+          <mxGeometry height="70" width="437.5" x="172.5" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="6vPUCvPgHk3eAOqjZDoX-27" parent="6vPUCvPgHk3eAOqjZDoX-24" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Programs and libraries (photoshop, browser, finder/file explorer, Fusion 360,...)" vertex="1">
+          <mxGeometry height="30" width="420" x="8.75" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6vPUCvPgHk3eAOqjZDoX-28" edge="1" parent="1" source="6vPUCvPgHk3eAOqjZDoX-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=block;startFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="6vPUCvPgHk3eAOqjZDoX-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="368.48" y="331.47" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6vPUCvPgHk3eAOqjZDoX-30" edge="1" parent="1" source="6vPUCvPgHk3eAOqjZDoX-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=block;startFill=1;" target="6vPUCvPgHk3eAOqjZDoX-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6vPUCvPgHk3eAOqjZDoX-31" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Software" vertex="1">
+          <mxGeometry height="400" width="510" x="130" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="6vPUCvPgHk3eAOqjZDoX-32" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Hardware" vertex="1">
+          <mxGeometry height="70" width="437.5" x="731.25" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="6vPUCvPgHk3eAOqjZDoX-33" parent="6vPUCvPgHk3eAOqjZDoX-32" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Control Unit, Arithmetic Unic, Memory / Register, Periferics (I/O)" vertex="1">
+          <mxGeometry height="30" width="410" x="13.75" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6vPUCvPgHk3eAOqjZDoX-34" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Program / Instructions" vertex="1">
+          <mxGeometry height="70" width="437.5" x="730" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="6vPUCvPgHk3eAOqjZDoX-37" parent="6vPUCvPgHk3eAOqjZDoX-34" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Machine code, punched tape, plug cables/boards or switches" vertex="1">
+          <mxGeometry height="30" width="410" x="13.75" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6vPUCvPgHk3eAOqjZDoX-36" edge="1" parent="1" source="6vPUCvPgHk3eAOqjZDoX-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="6vPUCvPgHk3eAOqjZDoX-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="950" y="530" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
