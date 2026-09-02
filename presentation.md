@@ -149,6 +149,13 @@ Humans made constant errors when doing long, tedious calculations like tax rolls
 
 ---
 
+## Column method 
+
+![](/images/column_sum.jpeg)
+
+Any memory?
+
+---
 
 ## Pascaline (1642) & Leibniz Calculator (1670s)
 
@@ -168,6 +175,12 @@ All math was done by hand on paper or with an abacus. Humans made constant error
 ##### Why it was a breakthrough
 
 These machines used physical *gears* to automatically carry over numbers. It automated tedious human math and drastically reduced human error.
+
+---
+
+## Mechanical gears
+
+![](/images/arithmometer_internal.jpg)
 
 ---
 
@@ -210,6 +223,7 @@ Invented **punch cards** to control the loom. The machine (hardware) was separat
 ## Charles Babbage, the Analytical Engine (1830s)
 
 ![](/images/analytical-engine.webp)
+![](/images/analytical_engine_punch_cards_open.webp)
 
 Babbage used the Jaquard loom idea to do mathematics
 
@@ -343,9 +357,18 @@ It required trained human operators to manually translate the dots and dashes. I
 
 ---
 
-![](/images/1830%20telegraph%20schema.jpg)
+## Morse code
 
+![](/images/1830%20telegraph%20schema.jpg)
+![](/images/Paper%20ticker%20tape%20of%20telegraph%20machine.png)
 ![](/images/1830_international_morse.png)
+
+---
+
+## Telegraph transmission lines
+
+![](/images/telegraph-poles-in-countryside.webp)
+
 
 ---
 
@@ -541,7 +564,7 @@ It used about 2000 relays with a clock frequency of 5-10 Hz (about **2-4 FLOPS**
 
 Build by the U.S. Army to originally compute artillery firing range tables and shell trajectories (differential equations)
 
-It has been use also for advanced calculation on the Manhattan Project (nucelar enery and weapons)
+It has been use also for advanced calculation on the Manhattan Project (nuclear energy and weapons)
 
 Very fast for at the time beacuse it used **vacuum tubes** and was huge
 
@@ -573,6 +596,14 @@ It consumed about 150kW of power (equivalent to about 9 typical houses, 17kW)
 It had a clock frequency of 5'000Hz, able to do 385 multiplication or 5'000 additions per second
 
 (about **500 FLOPS**)
+
+---
+
+## Instructions loading
+
+![](/images/eniac_programming.webp)
+
+Instructions and data were loaded manually setting up panels of switches
 
 ---
 
@@ -630,12 +661,70 @@ They come in different shapes and sizes with different properties for different 
 
 ---
 
+## Low-level language
+
+### Binary
+
+```
+| Address | Binary          | Instruction                         |
+|---------|-----------------|-------------------------------------|
+| 0200    | 111001000000    | CLA CLL (Clear AC and Link)         |
+| 0201    | 001010010000    | TAD CHAR (Add CHAR to AC)           |
+| 0202    | 1000100001000   | JMS TYPE (Jump to subroutine)       |
+| 0203    | 111100000010    | HALT (Stop)                         |
+| 0210    | 110000010001    | TSF (Test TTY status)               |
+| 0211    | 1010100001000   | JMP TYPE-1 (Wait loop)              |
+| 0212    | 110000010010    | TLS (Transmit character)            |
+| 0213    | 1011100001000   | JMP I TYPE (Return from subroutine) |
+| 0220    | 0000001000001   | CHAR (ASCII 'A')                    |
+```
+
+### Assembler (1940s-1950s)
+
+```javascript
+        CLA CLL     // Clear AC and Link flag
+        TAD CHAR    // Load 'A' into AC
+        JMS TYPE    // Call TYPE subroutine
+        HALT        // Stop execution
+
+TYPE:   TSF         // Test TTY status
+        JMP .-1     // Wait if busy
+        TLS         // Transmit character
+        JMP I TYPE  // Return to caller
+
+CHAR:   101         // ASCII 'A' (octal)
+```
+
+Assembler is directly executed by the machine, **no compiling** required
+
+Assembler introduces an **Instruction Set** to be human-readeable (HALT, JMP, CLA, ...)
+
+---
+
+## Manual instructions loading
+
+![](/images/eniac_programming.webp)
+
+To enter instructions in early computers, knobs and switches had to be accordingly set
+
+```
+| Address | Binary          |
+|---------|-----------------|
+| 0200    | 111001000000    |
+| 0201    | 001010010000    |
+| 0202    | 1000100001000   |
+| 0203    | 111100000010    |
+| 0210    | 110000010001    |
+```
+
+---
+
 ## The Compiler (1952 - Grace Hopper)
 
 ![](/images/Grace_Hopper_and_UNIVAC.jpg)
 ![](/images/500px-Grace_Murray_Hopper,_in_her_office_in_Washington_DC,_1978,_©Lynn_Gilbert.jpg)
 
-Programmers had to write instructions in absolute machine code (long strings of `1`s and `0`s`)
+Programmers had to write instructions in absolute machine code (alphanumeric or binary strings)
 
 Only specific machine's hardware could understand those instructions
 
@@ -667,17 +756,16 @@ It can be considered an example of the early philosophy of **free and open-sourc
 ---
 
 
-## FORTRAN (1957) and COBOL (1959)
+## High-level languages (compiled)
 
-
-### FORTRAN
+### FORTRAN (FORmula TRANslator) 1957
 
 ```fortran
 program hello
   print *, 'Hello, World!'
 end program hello
 ```
-### COBOL
+### COBOL (COmmon Business-Oriented Language) 1959
 
 ```cobol
 IDENTIFICATION DIVISION.
@@ -714,19 +802,38 @@ Programmers could now write `PRINT "HELLO"` instead of `10101010`. Coding time d
 
 ## Compiled code for UNIVAC I
 
-```
-; UNIVAC I-style pseudo machine code for Hello World
-0000: U01000   ; U 01000  – unconditional transfer to 1000 (start)
-1000: B02010   ; B 02010  – load A from address 210 (pointer to text)
-1006: Y03000   ; Y 03000  – print from address 300 through 359 (HSP)
-1012: 900000   ; 90 0000  – STOP UNIVAC (halt)
-
-0210: 00300    ; word containing address 300 (start of text)
-0300: HELLO,   ; "HELLO,"   (alphanumeric chars in UNIVAC I code)
-0301:  WORLD!  ; " WORLD!"  (continuation of the string)
-0302: §        ; end-of-text marker (implementation-dependent)
+HELLO, WORLD!
 
 ```
+0000: U01000
+1000: B02010
+1006: Y03000
+1012: 900000
+0210: 00300
+0300: HELLO,
+0301:  WORLD!
+0302: §
+
+```
+
+With explantion:
+
+```
+// Instructions
+0000: U01000  // unconditional transfer to 1000 (start)
+1000: B02010  // load A from address 210 (pointer to text)
+1006: Y03000  // print from address 300 through 359 (HSP)
+1012: 900000  // STOP UNIVAC (halt)
+
+// Data
+0210: 00300   // word containing address 300 (start of text)
+0300: HELLO,  // "HELLO,"   (alphanumeric chars in UNIVAC I code)
+0301:  WORLD! // " WORLD!"  (continuation of the string)
+0302: §       // end-of-text marker (implementation-dependent)
+
+```
+
+
 
 ---
 
@@ -748,6 +855,110 @@ COBOL systems handle about **3 Trillion of dollars in transaction per day!**
 About **95% of ATM transactions** still run on COBOL code
 
 Banks and governments are actively seeking for new COBOL developers to maintain the systems beacuse the original workforce is retireing. They do pay well.
+
+---
+
+# Storing instructions and data
+
+## The evolution of data storage technologies
+
+---
+
+## How data in computer is defined (bit)
+
+![](/images/bit_on_off.png)
+
+Generally speaking, the smallest information that exists is **binary**, meaning only **2 states**
+
+This binary information is called in the computer world a **bit** that can have a value of **1** or **0**
+
+---
+
+## 1 Byte = 8 bits
+
+![](/images/byte.png)
+
+The size of data is expressed in **Bytes**
+
+1 Byte can represent **256 different states** (2^8)
+
+---
+
+## bit and Bytes calculations
+
+| bits (n)    | states (2^n) | Binary Range (From → To) |
+|---------|--------------|--------------------------|
+| 1       | 2            | 0 → 1                    |
+| 2       | 4            | 00 → 11                  |
+| 3       | 8            | 000 → 111                |
+| 4       | 16           | 0000 → 1111              |
+| 5       | 32           | 00000 → 11111            |
+| 6       | 64           | 000000 → 111111          |
+| 7       | 128          | 0000000 → 1111111        |
+| 8       | 256          | 00000000 → 11111111      |
+
+---
+
+| Base | Name        | Digits Used | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | **10** | 11 | 12 | 13 | 14 | 15 | 16 |
+|------|-------------|-------------|---|---|---|---|---|---|---|---|---|---|--------|----|----|----|----|----|----|
+| **2** | Binary      | 0, 1        | 0 | 1 | 10 | 11 | 100 | 101 | 110 | 111 | 1000 | 1001 | **1010** | 1011 | 1100 | 1101 | 1110 | 1111 | 10000 |
+| **3** | Ternary     | 0, 1, 2     | 0 | 1 | 2 | 10 | 11 | 12 | 20 | 21 | 22 | 100 | **101** | 102 | 110 | 111 | 112 | 120 | 121 |
+| **4** | Quaternary  | 0, 1, 2, 3  | 0 | 1 | 2 | 3 | 10 | 11 | 12 | 13 | 20 | 21 | 22 | 23 | 30 | 31 | 32 | 33 | **100** |
+| **5** | Quinary     | 0, 1, 2, 3, 4 | 0 | 1 | 2 | 3 | 4 | 10 | 11 | 12 | 13 | 14 | 20 | 21 | 22 | 23 | 24 | 30 | 31 |
+| **8** | Octal       | 0-7         | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | **10** | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 20 |
+| **10**| Decimal     | 0-9         | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | **10** | 11 | 12 | 13 | 14 | 15 | 16 |
+| **12**| Duodecimal  | 0-9, A, B   | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | A | B | **10** | 11 | 12 | 13 | 14 |
+| **16**| Hexadecimal | 0-9, A-F    | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | A | B | C | D | E | F | **10** |
+
+---
+
+## 1 Byte counter
+
+<div style="font:2em monospace">
+  <div>Binary: <span id="byteCounterBinary">00000000</span></div>
+  <div>Decimal: <span id="byteCounterDecimal">0</span></div>
+  <div>Octal: <span id="byteCounterOctal">0</span></div>
+  <div>Hex: <span id="byteCounterHex">00</span></div>
+</div>
+
+<button id="byteCounterStep">+1</button>
+<button id="byteCounterAuto">Auto</button>
+<button id="byteCounterReset">Reset</button>
+
+
+---
+
+## Punch cards (1940s-1970s)
+
+![](/images/punch_cards_stack.avif)
+![](/images/punch_cards_pile.webp)
+
+Every card contained one instruction (line of code) or data
+
+Cards were **read** by the computer to **load** the program and data
+
+Storage capacity of about **80 bytes**
+
+---
+
+## Paper tape (1940s-1970s)
+
+![](/images/punch_cards_stack.avif)
+![](/images/punch_cards_pile.webp)
+
+Every card contained one instruction (line of code) or data
+
+Cards were **read** by the computer to **load** the program and data
+
+---
+
+## Magnetic Core Memory (1950s–1970s)
+
+
+
+---
+
+## Magnetic tape
 
 ---
 
