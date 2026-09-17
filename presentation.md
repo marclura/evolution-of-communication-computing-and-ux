@@ -396,6 +396,7 @@ Laying massive cables across the ocean floor physically linked the continents, a
 
 ![](/images/Alexander_Graham_Bell_1895_NPG_77_363.jpg)
 ![](/images/The%20Telephone%201876%20-%20Alexander%20Graham%20Bell.png)
+![](/images/bell_telephone.png)
 
 
 Before → Telegraph could only send coded signals (binary, dashes and dots, words and numbers)
@@ -874,56 +875,87 @@ This binary information is called in the computer world a **bit** that can have 
 
 ---
 
-## 1 Byte = 8 bits
+## 8 bits = 1 Byte
 
 ![](/images/byte.png)
 
-The size of data is expressed in **Bytes**
+The size of data is usually expressed in **Bytes**
 
-1 Byte can represent **256 different states** (2^8)
-
----
-
-## bit and Bytes calculations
-
-| bits (n)    | states (2^n) | Binary Range (From → To) |
-|---------|--------------|--------------------------|
-| 1       | 2            | 0 → 1                    |
-| 2       | 4            | 00 → 11                  |
-| 3       | 8            | 000 → 111                |
-| 4       | 16           | 0000 → 1111              |
-| 5       | 32           | 00000 → 11111            |
-| 6       | 64           | 000000 → 111111          |
-| 7       | 128          | 0000000 → 1111111        |
-| 8       | 256          | 00000000 → 11111111      |
+1 Byte represents **256 different states** (2^8)
 
 ---
 
-| Base | Name        | Digits Used | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | **10** | 11 | 12 | 13 | 14 | 15 | 16 |
-|------|-------------|-------------|---|---|---|---|---|---|---|---|---|---|--------|----|----|----|----|----|----|
-| **2** | Binary      | 0, 1        | 0 | 1 | 10 | 11 | 100 | 101 | 110 | 111 | 1000 | 1001 | **1010** | 1011 | 1100 | 1101 | 1110 | 1111 | 10000 |
-| **3** | Ternary     | 0, 1, 2     | 0 | 1 | 2 | 10 | 11 | 12 | 20 | 21 | 22 | 100 | **101** | 102 | 110 | 111 | 112 | 120 | 121 |
-| **4** | Quaternary  | 0, 1, 2, 3  | 0 | 1 | 2 | 3 | 10 | 11 | 12 | 13 | 20 | 21 | 22 | 23 | 30 | 31 | 32 | 33 | **100** |
-| **5** | Quinary     | 0, 1, 2, 3, 4 | 0 | 1 | 2 | 3 | 4 | 10 | 11 | 12 | 13 | 14 | 20 | 21 | 22 | 23 | 24 | 30 | 31 |
-| **8** | Octal       | 0-7         | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | **10** | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 20 |
-| **10**| Decimal     | 0-9         | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | **10** | 11 | 12 | 13 | 14 | 15 | 16 |
-| **12**| Duodecimal  | 0-9, A, B   | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | A | B | **10** | 11 | 12 | 13 | 14 |
-| **16**| Hexadecimal | 0-9, A-F    | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | A | B | C | D | E | F | **10** |
+## Byte, kByte, MByte, etc.
+
+| Unit | Abbreviation | Bytes |
+|---|---:|---:|
+| Byte | B | 1 |
+| Kilobyte | kB | 1'000 |
+| Megabyte | MB | 1'000'000 |
+| Gigabyte | GB | 1'000'000'000 |
+| Terabyte | TB | 1'000'000'000'000 |
+| Petabyte | PB | 1'000'000'000'000'000 |
+| Exabyte | EB | 1'000'000'000'000'000'000 |
 
 ---
 
-## 1 Byte counter
+## Different bases
 
-<div style="font:2em monospace">
-  <div>Binary: <span id="byteCounterBinary">00000000</span></div>
-  <div>Decimal: <span id="byteCounterDecimal">0</span></div>
-  <div>Octal: <span id="byteCounterOctal">0</span></div>
-  <div>Hex: <span id="byteCounterHex">00</span></div>
-</div>
+| Base | Name        | Digits Used |
+|------|-------------|-------------|
+| **2**  | Binary      | 0, 1        |
+| **3**  | Ternary     | 0, 1, 2     |
+| **4**  | Quaternary  | 0, 1, 2, 3  |
+| **8**  | Octal       | 0–7         |
+| **10** | Decimal     | 0–9         |
+| **16** | Hexadecimal | 0–9, A–F   |
 
-<button id="byteCounterStep">+1</button>
-<button id="byteCounterAuto">Auto</button>
-<button id="byteCounterReset">Reset</button>
+---
+
+## Same amount, different representaion
+
+<table style="font:1.5em monospace; border-collapse: collapse; margin: 0 auto;">
+  <tr>
+    <th style="text-align: left; padding-right: 1em;">Base</th>
+    <th style="text-align: left;">Digits</th>
+    <th style="text-align: right; padding-right: 1em;">Value</th>
+  </tr>
+  <tr>
+    <td style="text-align: left; padding-right: 1em;">Decimal (base 10)</td>
+    <td style="text-align: left;">0-9</td>
+    <td style="text-align: right; padding-right: 1em;"><span id="byteCounterDecimal">0</span></td>
+  </tr>
+  <tr>
+    <td style="text-align: left; padding-right: 1em;">Binary (base 2)</td>
+    <td style="text-align: left;">0,1</td>
+    <td style="text-align: right; padding-right: 1em;"><span id="byteCounterBinary">0</span></td>
+  </tr>
+  <tr>
+    <td style="text-align: left; padding-right: 1em;">Ternary (base 3)</td>
+    <td style="text-align: left;">0,1,2</td>
+    <td style="text-align: right; padding-right: 1em;"><span id="byteCounterTernary">0</span></td>
+  </tr>
+  <tr>
+    <td style="text-align: left; padding-right: 1em;">Octal (base 8)</td>
+    <td style="text-align: left;">0-7</td>
+    <td style="text-align: right; padding-right: 1em;"><span id="byteCounterOctal">0</span></td>
+  </tr>
+  <tr>
+    <td style="text-align: left; padding-right: 1em;">Hex (base 16)</td>
+    <td style="text-align: left;">0-9, A-F</td>
+    <td style="text-align: right; padding-right: 1em;"><span id="byteCounterHex">0</span></td>
+  </tr>
+  <tr>
+    <td style="text-align: left; padding-right: 1em;">Roman</td>
+    <td style="text-align: left;">I,V,X,L,C,D,M</td>
+    <td style="text-align: right; padding-right: 1em;"><span id="byteCounterRoman">0</span></td>
+  </tr>
+</table>
+
+
+<button id="byteCounterStep" style="font-size: 32px">+1</button>
+<button id="byteCounterAuto" style="font-size: 32px">Auto</button>
+<button id="byteCounterReset" style="font-size: 32px">Reset</button>
 
 
 ---
@@ -937,28 +969,67 @@ Every card contained one instruction (line of code) or data
 
 Cards were **read** by the computer to **load** the program and data
 
-Storage capacity of about **80 bytes**
+Storage capacity of about **80 bytes** (1 byte = 1 character)
+
+*"This sentence is deliberately written to use all eighty available characters."*
+
+---
+
+## Punch cards (1940s-1970s)
+
+![](/images/mp3_file.webp)
+![](/images/punch_cards_pile.webp)
+
+To **store** an average Spotify song (3.5 minutes, high quality 320kbit/s, 8.4MB):
+
+it would have taken about **105'000 punch cards**, about **500kg** of paper!
+
+To load them into a computer, it would taken about **2h and 11 minutes**!
 
 ---
 
 ## Paper tape (1940s-1970s)
 
-![](/images/punch_cards_stack.avif)
-![](/images/punch_cards_pile.webp)
+![](/images/punch_tape.png)
+![](/images/punch_tape_1.jpg)
 
-Every card contained one instruction (line of code) or data
+Paper tape stored one character per punched row.
 
-Cards were **read** by the computer to **load** the program and data
+Its capacity depended on the tape length and coding system (from 5 to 8 holes per row).
+
+1 meter of 8-hole tape, would store 394bytes, 100meters 39.4kB, 1km 394kB
+
+---
+
+## Paper tape (1940s-1970s)
+
+![](/images/mp3_file.webp)
+![](/images/punch_tape.png)
+
+To **store** an average Spotify song (3.5 minutes, high quality 320kbit/s, 8.4MB):
+
+with a 8-holes tape, it would require **21.3km** of tape, weighing about **33kg**
+
+It would have taken about **7h 47 minutes** to load it into a computer
 
 ---
 
 ## Magnetic Core Memory (1950s–1970s)
 
-
+![](/images/magnetc_core_memory_1.jpg)
 
 ---
 
 ## Magnetic tape
+
+
+
+
+
+---
+
+## Magnetic disk
+
 
 ---
 
