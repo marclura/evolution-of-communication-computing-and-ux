@@ -18,6 +18,9 @@ Humans had to rely on their biological memory or make marks on sticks
 
 ## Calculation (3200 B.C to 1600 A.C.)
 
+![](/images/Kalina_hunter_gatherer.jpg)
+![](/images/Sumer.jpg)
+
 The shift from hunter-gatherer societies to agriculture and cities created a "data problem"
 
 Human memory alone couldn't solve it (grain storage, taxes, trades, ...)
@@ -141,19 +144,19 @@ It relied entirely on human eyesight and clear weather. If it was foggy or dark,
 
 ---
 
-![Use of an abacus, as illustrated in Margarita philosophica - 1503](/images/manual-calculation.jpg)
-
-All math was done by hand on paper or with an abacus.
-
-Humans made constant errors when doing long, tedious calculations like tax rolls or astronomical measurements.
-
----
-
 ## Column method 
 
 ![](/images/column_sum.jpeg)
 
 Any memory?
+
+---
+
+![Use of an abacus, as illustrated in Margarita philosophica - 1503](/images/manual-calculation.jpg)
+
+All math was done by hand on paper or with an abacus.
+
+Humans made constant errors when doing long, tedious calculations like tax rolls or astronomical measurements.
 
 ---
 
@@ -899,67 +902,6 @@ The size of data is usually expressed in **Bytes**
 
 ---
 
-## Different bases
-
-| Base | Name        | Digits Used |
-|------|-------------|-------------|
-| **2**  | Binary      | 0, 1        |
-| **3**  | Ternary     | 0, 1, 2     |
-| **4**  | Quaternary  | 0, 1, 2, 3  |
-| **8**  | Octal       | 0–7         |
-| **10** | Decimal     | 0–9         |
-| **16** | Hexadecimal | 0–9, A–F   |
-
----
-
-## Same amount, different representaion
-
-<table style="font:1.5em monospace; border-collapse: collapse; margin: 0 auto;">
-  <tr>
-    <th style="text-align: left; padding-right: 1em;">Base</th>
-    <th style="text-align: left;">Digits</th>
-    <th style="text-align: right; padding-right: 1em;">Value</th>
-  </tr>
-  <tr>
-    <td style="text-align: left; padding-right: 1em;">Decimal (base 10)</td>
-    <td style="text-align: left;">0-9</td>
-    <td style="text-align: right; padding-right: 1em;"><span id="byteCounterDecimal">0</span></td>
-  </tr>
-  <tr>
-    <td style="text-align: left; padding-right: 1em;">Binary (base 2)</td>
-    <td style="text-align: left;">0,1</td>
-    <td style="text-align: right; padding-right: 1em;"><span id="byteCounterBinary">0</span></td>
-  </tr>
-  <tr>
-    <td style="text-align: left; padding-right: 1em;">Ternary (base 3)</td>
-    <td style="text-align: left;">0,1,2</td>
-    <td style="text-align: right; padding-right: 1em;"><span id="byteCounterTernary">0</span></td>
-  </tr>
-  <tr>
-    <td style="text-align: left; padding-right: 1em;">Octal (base 8)</td>
-    <td style="text-align: left;">0-7</td>
-    <td style="text-align: right; padding-right: 1em;"><span id="byteCounterOctal">0</span></td>
-  </tr>
-  <tr>
-    <td style="text-align: left; padding-right: 1em;">Hex (base 16)</td>
-    <td style="text-align: left;">0-9, A-F</td>
-    <td style="text-align: right; padding-right: 1em;"><span id="byteCounterHex">0</span></td>
-  </tr>
-  <tr>
-    <td style="text-align: left; padding-right: 1em;">Roman</td>
-    <td style="text-align: left;">I,V,X,L,C,D,M</td>
-    <td style="text-align: right; padding-right: 1em;"><span id="byteCounterRoman">0</span></td>
-  </tr>
-</table>
-
-
-<button id="byteCounterStep" style="font-size: 32px">+1</button>
-<button id="byteCounterAuto" style="font-size: 32px">Auto</button>
-<button id="byteCounterReset" style="font-size: 32px">Reset</button>
-
-
----
-
 ## Punch cards (1940s-1970s)
 
 ![](/images/punch_cards_stack.avif)
@@ -980,7 +922,7 @@ Storage capacity of about **80 bytes** (1 byte = 1 character)
 ![](/images/mp3_file.webp)
 ![](/images/punch_cards_pile.webp)
 
-To **store** an average Spotify song (3.5 minutes, high quality 320kbit/s, 8.4MB):
+To **store** an average Spotify song (3.5 minutes, 8.4MB):
 
 it would have taken about **105'000 punch cards**, about **500kg** of paper!
 
@@ -1006,7 +948,7 @@ Its capacity depended on the tape length and coding system (from 5 to 8 holes pe
 ![](/images/mp3_file.webp)
 ![](/images/punch_tape.png)
 
-To **store** an average Spotify song (3.5 minutes, high quality 320kbit/s, 8.4MB):
+To **store** an average Spotify song (3.5 minutes, 8.4MB):
 
 with a 8-holes tape, it would require **21.3km** of tape, weighing about **33kg**
 
@@ -1017,18 +959,107 @@ It would have taken about **7h 47 minutes** to load it into a computer
 ## Magnetic Core Memory (1950s–1970s)
 
 ![](/images/magnetc_core_memory_1.jpg)
+![](/images/magnetic_core_memory_2.jpg)
+
+Magnetic-core memory stored **one bit** per **ferrite core**
+
+The *Appolo Guidance Computer* that went to the moon in 1969, had **35'840 ferrite cores**
+
+In the late 1970s systems, the capacity was several MegaBytes of memory (millions of ferrite cores)
 
 ---
 
-## Magnetic tape
+## Magnetic tape (from 1950s)
 
+![](/images/magnetic_tape_50s.avif)
+![](/images/magnetic_tape_1964.avif)
 
+Cheap sequential storage for data storage and backups
 
+Sequential means that to access the data, the tape has to be rewind to the desired data position
+
+The first tape reels could store about 3MB each, today up to 90TB each (about 30millions times more)
+
+---
+
+## Magnetic tape today
+
+![](/images/tape-lto-backup.webp)
+![](/images/LTO_tape_unspooled.png)
+
+Today it is still the most common long-term backup solution for datacenters.
+
+It is still the cheapest and very realiable solution long-term.
+
+The latest version of the current tapes (LTO-10) can store up to **90TB of data per tape**.
 
 
 ---
 
-## Magnetic disk
+## Hard disk drives (HDDs) (from 1956)
+
+![](/images/HDD_1.png)
+![](/images/HDD_2.png)
+
+The first HDD build by IBM in 1956 had a capacity of 3.75MB
+
+Today commerical HDD have a capacity up to 36TB (about 10millions times more)
+
+They provide big storage capacity and faster random data access compared to magnetic tapes
+
+
+---
+
+## Floppy disks (1970s–1990s)
+
+![](/images/ibm_floppy.avif)
+
+Portable magnetic storage
+
+The main formats over time were: 8"/20cm (1.2MB), 5.25"/13cm (1.2MB), and the 3.5"/9cm (1.44MB)
+
+To store a Spotify song (8.4MB), you would need **6 disks of 1.44MB floppy disks**
+
+To transfer the song to the computer, it would take about **5 minutes**
+
+---
+
+## Optical disks (from 1980s)
+
+![](/images/CD_rom.png)
+
+Optical discs store data using a laser that reads microscopic pits and lands
+
+CD-ROM (from 1985): 700MB, DVD (from 1996): 4.7GB, Blue-ray (2006): 25GB-128GB 
+
+---
+
+## Flash-based storage (from 2000s)
+
+<div style="display: flex">
+<img src="/images/flash_usb.png">
+<img src="/images/flash_ssd.png">
+<img src="/images/flash_smart.png">
+</div>
+
+USB drives, memory cards, SSDs (Solid State Disk), smart devices, all use NAND flash memory
+
+There are no moving parts, making them faster and more durable than HDDs
+
+The data storage capacity is up to varius TBs with very fast reading and writing performances
+
+---
+
+## Cloud storage (from 2010s)
+
+![](/images/cloud_storage_data_center.png)
+![](/images/cloud_storage_services.png)
+
+Data are stored on remote data centers and accessed online
+
+The devices that stores data are still HDDs, SSDs and magnetic tapes for backups
+
+Data are **not anymore physcially with the user**, but remotely accessed
 
 
 ---
@@ -1043,9 +1074,12 @@ It would have taken about **7h 47 minutes** to load it into a computer
 
 ## Intel 4004 Integtated Circuit / Microchip (1971)
 
-![](/images/500px-Intel_C4004.jpg)
-![](/images/Intel_4004_open.png)
-![](/images/Chip_layout_from_the_development_phase_of_the_Intel_4004_from_1971,_the_first_microprocessor_of_the_world.jpg)
+
+<div style="display: flex">
+<img src="/images/500px-Intel_C4004.jpg">
+<img src="/images/Intel_4004_open.png">
+<img src="/images/Chip_layout_from_the_development_phase_of_the_Intel_4004_from_1971,_the_first_microprocessor_of_the_world.jpg">
+</div>
 
 The Intel 4004 was the first of the Intel Central Processing Units (CPU)
 
@@ -1067,9 +1101,12 @@ Scientists figured out how to print thousands of transistors onto a single tiny 
 
 ## Before and after
 
-![](/images/discrete-circuit-electronics-without%20board.jpg)
-![](/images/univac-discrete-transisotr-board.jpg)
-![](/images/intel_4004_designers.jpg)
+<div style="display: flex">
+<img src="/images/discrete-circuit-electronics-without%20board.jpg">
+<img src="/images/univac-discrete-transisotr-board.jpg">
+<img src="/images/intel_4004_designers.jpg">
+</div>
+
 
 From components connected with wires, to Printed Circuit Boards (PCB) and to Integrated Circuits (IC)
 
@@ -1308,7 +1345,7 @@ This made computer intuitive for non-technical users
 ![](/images/mac_gui_02.png)
 ![](/images/mac_gui_03.png)
 
-It inspired the entire industry (Microsoft Adobe, etc.)
+It inspired the entire industry (Microsoft, Adobe, etc.)
 
 It proved that computers could be **creative tools**, not just calculators (Ada Lovelace, 1800s)
 
