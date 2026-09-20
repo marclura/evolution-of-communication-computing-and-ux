@@ -1347,57 +1347,67 @@ JavaScript was invented to make web pages **react** to the user (clicks, pop-ups
 
 ---
 
-## Open Source (Linux, GitHub)
+## Open Source (GNU Project, Richard Stallman 1983)
 
-👎 Before → Software code guarded as proprietary secrets
+<div class="container-images">
+<img src="/images/Heckert_GNU_white.svg">
+<img src="/images/Richard_Stallman.jpg">
+</div>
 
-💡 Innovation → Globally shared free community code
+Software code was heavily guarded as proprietary company secrets.
 
-Note:
+If you wanted to build a new app, you had to write the foundational code from scratch.
 
-##### Before this
+The Open Source movement, allowred developers to share code globally for free.
 
-Software code was heavily guarded as proprietary company secrets. If you wanted to build a new app, you had to write the foundational code from scratch.
+You could build a startup using free, community-built tools
 
-##### Why it was a breakthrough
+---
 
-Developers shared code globally for free. You could build a startup using free, community-built tools.
+## Open Source libraries, OS and codebases
+
+<div class="container-images">
+<img src="/images/linux_tux.svg">
+<img src="/images/Github_UI.png">
+</div>
+
+**Around 90-97% of modern commercial software contains open-source components**
+
+**Linux** is the most-used open-source operating-system technology worldwide (Android 70% of mobile OS, 100%  of the top 500 supercomputers, server/cloud)
+
+WordPress, PHP, NGINX/Apache, JavaScript, Python, Node.js, PostgreSQL, Git are among the most used open-source software today
 
 ---
 
 ## Cloud Computing & APIs (2000s)
 
-👎 Before → Physical servers and IT maintenance required
+<div class="container-images">
+<img src="/images/local_server_computing.png">
+<img src="/images/AWS.png">
+</div>
 
-💡 Innovation → Renting processing power and app interconnectivity
+To run your business, you had to physically buy servers, rent a cooled warehouse, and hire IT staff to maintain them.
 
-Note:
+Cloud Computing allowed to **"rent"** processing power, for example from Amazon (AWS)
 
-##### Before this
-
-If your app got popular, you had to physically buy servers, rent a cooled warehouse, and hire IT staff to maintain them.
-
-##### Why it was a breakthrough
-
-You could "rent" processing power from Amazon (AWS). APIs allowed apps to "talk" to each other seamlessly (like a weather app pulling data from a flight system).
+**APIs (Application Programming Interface)** allowed apps to **"talk"** to each other seamlessly.
 
 ---
 
 ## Mobile Networks (3G/4G/5G - 2000s to 2020s)
 
-👎 Before → Slow data and limited to voice and text
+<div class="container-images">
+<img src="/images/Nokia_3310_grey_all_sides.jpg">
+<img src="/images/5G_tower.png">
+</div>
 
-💡 Innovation → High-speed digital packets for real internet access
+Early cell phones (1G/2G) were built for voice calls and tiny text messages.
 
-Note:
+Data was painfully slow, making internet access on a phone almost useless.
 
-##### Before this
+By turning voice and data into high-speed digital packets, mobile networks finally allowed real **internet access without physical wires**
 
-Early cell phones (1G/2G) were built for voice calls and tiny text messages. Data was painfully slow, making internet access on a phone almost useless.
-
-##### Why it was a breakthrough
-
-By turning voice and data into high-speed digital packets, mobile networks finally allowed real internet access without physical wires. This untethered the computer from the desk, enabling the app economy and constant connectivity.
+This untethered the computer from the desk, enabling the **app economy** and **constant connectivity**.
 
 ---
 
@@ -1411,19 +1421,18 @@ By turning voice and data into high-speed digital packets, mobile networks final
 
 ## The Smartphone (2007 - iPhone)
 
-👎 Before → Tiny screens, physical keyboards, clunky menus
+<div class="container-images">
+<img src="/images/black_berry.png">
+<img src="/images/iphone_2007_steve_jobs.webp">
+</div>
 
-💡 Innovation → Full microprocessor and sensors behind a touch screen
+"Smart" phones (like Blackberries) had tiny screens, physical keyboards, and clunky menus designed for business emails.
 
-Note:
+They were miniaturized computers, but still felt like tools for IT departments.
 
-##### Before this
+The **iPhone** put a full microprocessor, high-speed internet connection, and advanced sensors (camera, GPS, gyroscope) behind a large, touch-responsive screen
 
-"Smart" phones (like Blackberries) had tiny screens, physical keyboards, and clunky menus designed for business emails. They were miniaturized computers, but still felt like tools for IT departments.
-
-##### Why it was a breakthrough
-
-The iPhone put a full microprocessor, high-speed internet connection, and advanced sensors (camera, GPS, gyroscope) behind a large, touch-responsive screen. It forced designers to invent **Responsive Design**—websites and apps that adapt to the size of the screen and the user's physical context.
+It forced designers to invent **Responsive Design**—websites and apps that adapt to the size of the screen and the **user's physical context**.
 
 ---
 
@@ -1437,73 +1446,51 @@ The iPhone put a full microprocessor, high-speed internet connection, and advanc
 
 ## Web 1.0 (1990s - The Static Web)
 
-👎 Before → Closed proprietary networks and walled gardens
+<div class="container-images">
+<img src="/images/AOL_1990.jpg">
+</div>
 
-💡 Innovation → Global static pages connected by hyperlinks
+The internet existed mostly as closed, **proprietary networks** (like AOL or CompuServe) where users were limited to navigating closed "walled gardens" of content created by the providers.
 
-🤦‍♂️ Flaw → Passive, read-only consumption requiring HTML knowledge
+Web 1.0 was the era of the **"read-only" web**. It consisted of static HTML pages connected by hyperlinks. Anyone could publish a document to a global audience instantly.
 
-Note:
-
-##### Before this
-
-The internet existed mostly as closed, proprietary networks (like AOL or CompuServe) where users were limited to navigating closed "walled gardens" of content created by the providers.
-
-##### Why it was a breakthrough
-
-Web 1.0 was the era of the "read-only" web. It consisted of static HTML pages connected by hyperlinks. Anyone could publish a document to a global audience instantly.
-
-##### The Flaw
-
-It was largely passive. Average users could only consume information; creating content required knowing HTML and having server access, so most sites were just digital brochures.
+It was largely passive. Average users could only consume information; **creating content required knowing HTML and having server access**, so most sites were just digital brochures.
 
 ---
 
 ## Web 2.0 (2000s - The Social Web)
 
-👎 Before → Static, disconnected pages requiring coding to share
+<div class="container-images">
+<img src="/images/myspace.avif">
+<img src="/images/FirstVersions_Thefacebook-login-screenshot.png">
+<img src="/images/first_youtube.png">
+</div>
 
-💡 Innovation → Participatory web allowing user-generated content
+The web was a vast library of **static, disconnected pages**, there was no easy way to interact or collaborate.
 
-🤦‍♂️ Flaw → Centralized monopolies controlling user data and attention
+Web 2.0 turned the "read-only" web into the **"read-write" or "participatory" web**.
 
-Note:
+Platforms like Wikipedia, YouTube, and Facebook allowed anyone to upload content, comment, and collaborate **without knowing how to code**.
 
-##### Before this
+AJAX and JavaScript allowed pages to update dynamically.
 
-The web was a vast library of static, disconnected pages. If you wanted to share your opinion or a photo, you had to code your own page or send an email. There was no easy way to interact or collaborate.
-
-##### Why it was a breakthrough
-
-Web 2.0 turned the "read-only" web into the "read-write" or "participatory" web. Platforms like Wikipedia, YouTube, and Facebook allowed anyone to upload content, comment, and collaborate without knowing how to code. AJAX and JavaScript allowed pages to update dynamically.
-
-##### The Flaw
-
-It became highly centralized. A few massive tech giants monopolized user data, attention, and algorithms, creating walled gardens that trapped user data and often compromised privacy.
+It became highly centralized. A few massive tech giants monopolized user data, attention, and algorithms.
 
 ---
 
 ## Web 3.0 (2010s–Present - The Decentralized/Semantic Web)
 
-👎 Before → User data siloed and controlled by central authorities
+<div class="container-images">
+<img src="/images/web3.avif">
+</div>
 
-💡 Innovation → Decentralized ownership through blockchain and tokens
+Web 2.0 centralized user data under Big Tech, limiting digital ownership of data, identies and assets.
 
-🤦‍♂️ Flaw → Experimental, hard to scale, and clunky user experience
+Platforms can change rules  or ban users at will.
 
-Note:
+Web 3.0 uses blockchain, tokens, and decentralized apps (DeFi, dApps) to return control to users.
 
-##### Before this
-
-In the Web 2.0 era, user data was siloed and controlled by central authorities (Big Tech). Users didn't truly own their digital identities, assets, or data, and platforms could change rules or ban users at will.
-
-##### Why it was a breakthrough
-
-Web 3.0 aims to return ownership to users through blockchain technology, decentralized networks, and smart contracts. It introduces "tokens" that represent true digital ownership and allows for decentralized apps (dApps) and finance (DeFi).
-
-##### The Flaw
-
-It is currently highly experimental, hard to scale, and complex for everyday users. The user experience is often clunky, and the environmental impact of some blockchain technologies has been heavily criticized.
+It remains experimental, complex, difficult to scale, and environmentally controversial.
 
 ---
 
@@ -1517,38 +1504,27 @@ It is currently highly experimental, hard to scale, and complex for everyday use
 
 ## Generative AI & LLMs (ChatGPT, etc.)
 
-👎 Before → Humans had to learn computer code
+<div class="container-images">
+<img src="/images/will_smith_spaghetti_AI.webp">
+</div>
 
-💡 Innovation → Computers learning and generating human language
+For 70 years, humans had to learn the computer's language (code).
 
-Note:
+If you didn't know how to write HTML or Python, you could not build software.
 
-##### Before this
+Now, computers have learned human language.
 
-For 70 years, humans had to learn the computer's language (code). If you didn't know how to write HTML or Python, you could not build software.
-
-##### Why it was a breakthrough
-
-Now, computers have learned human language. You can describe a website in plain English, and the AI writes the code.
+You can describe a website in plain English, and the AI writes the code.
 
 ---
 
 ## Low-code / No-code tools
 
-👎 Before → Handing off designs to engineers
-
-💡 Innovation → Visual interfaces bypassing the code entirely
-
-Note:
-
-##### Before this
-
 Designers had to hand off their visual designs to engineers to make them functional, creating a bottleneck between the idea and the working product.
 
-##### Why it was a breakthrough
+Now with AI tools the barrier to creating technology has never been lower.
 
-Visual interfaces (like Webflow or Bubble) allow designers to build complex software by dragging and dropping elements, completely skipping the code.  The barrier to creating technology has never been lower. The focus is shifting from *how to write code* to *how to design good solutions*.
-
+The focus is shifting from **how to write code** to **how to design good solutions**.
 
 ---
 
