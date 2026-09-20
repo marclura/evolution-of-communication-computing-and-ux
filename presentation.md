@@ -152,16 +152,6 @@ It relied entirely on human eyesight and clear weather. If it was foggy or dark,
 
 ---
 
-## Column method 
-
-<div class="container-images">
-<img src="/images/column_sum.jpeg">
-</div>
-
-Any memory?
-
----
-
 <div class="container-images">
 <img src="/images/manual-calculation.jpg">
 </div>
@@ -172,6 +162,16 @@ Humans made constant errors when doing long, tedious calculations like tax rolls
 
 ---
 
+## Column method 
+
+<div class="container-images">
+<img src="/images/column_sum.jpeg">
+</div>
+
+(carrying digit)
+
+---
+
 ## Pascaline (1642) & Leibniz Calculator (1670s)
 
 <div class="container-images">
@@ -179,7 +179,7 @@ Humans made constant errors when doing long, tedious calculations like tax rolls
 <img src="/images/leibniz.jpg">
 </div>
 
-Automated calculations with physical gears to automatically carry over numbers
+Automated calculations with physical gears to automatically carry over digits
 
 It automated tedious human math and drastically reduced human error
 
@@ -732,46 +732,6 @@ They come in different shapes and sizes with different properties for different 
 
 ---
 
-## Low-level language
-
-### Binary
-
-```
-| Address | Binary          | Instruction                         |
-|---------|-----------------|-------------------------------------|
-| 0200    | 111001000000    | CLA CLL (Clear AC and Link)         |
-| 0201    | 001010010000    | TAD CHAR (Add CHAR to AC)           |
-| 0202    | 1000100001000   | JMS TYPE (Jump to subroutine)       |
-| 0203    | 111100000010    | HALT (Stop)                         |
-| 0210    | 110000010001    | TSF (Test TTY status)               |
-| 0211    | 1010100001000   | JMP TYPE-1 (Wait loop)              |
-| 0212    | 110000010010    | TLS (Transmit character)            |
-| 0213    | 1011100001000   | JMP I TYPE (Return from subroutine) |
-| 0220    | 0000001000001   | CHAR (ASCII 'A')                    |
-```
-
-### Assembler (1940s-1950s)
-
-```javascript
-        CLA CLL     // Clear AC and Link flag
-        TAD CHAR    // Load 'A' into AC
-        JMS TYPE    // Call TYPE subroutine
-        HALT        // Stop execution
-
-TYPE:   TSF         // Test TTY status
-        JMP .-1     // Wait if busy
-        TLS         // Transmit character
-        JMP I TYPE  // Return to caller
-
-CHAR:   101         // ASCII 'A' (octal)
-```
-
-Assembler is directly executed by the machine, **no compiling** required
-
-Assembler introduces an **Instruction Set** to be human-readeable (HALT, JMP, CLA, ...)
-
----
-
 ## Manual instructions loading
 
 <div class="container-images">
@@ -789,6 +749,46 @@ To enter instructions in early computers, knobs and switches had to be according
 | 0203    | 111100000010    |
 | 0210    | 110000010001    |
 ```
+
+---
+
+## Low-level language
+
+### Assembler (1940s-1950s)
+
+```javascript
+        CLA CLL     // Clear AC and Link flag
+        TAD CHAR    // Load 'A' into AC
+        JMS TYPE    // Call TYPE subroutine
+        HALT        // Stop execution
+
+TYPE:   TSF         // Test TTY status
+        JMP .-1     // Wait if busy
+        TLS         // Transmit character
+        JMP I TYPE  // Return to caller
+
+CHAR:   101         // ASCII 'A' (octal)
+```
+
+### Binary
+
+```
+| Address | Binary          | Instruction                         |
+|---------|-----------------|-------------------------------------|
+| 0200    | 111001000000    | CLA CLL (Clear AC and Link)         |
+| 0201    | 001010010000    | TAD CHAR (Add CHAR to AC)           |
+| 0202    | 1000100001000   | JMS TYPE (Jump to subroutine)       |
+| 0203    | 111100000010    | HALT (Stop)                         |
+| 0210    | 110000010001    | TSF (Test TTY status)               |
+| 0211    | 1010100001000   | JMP TYPE-1 (Wait loop)              |
+| 0212    | 110000010010    | TLS (Transmit character)            |
+| 0213    | 1011100001000   | JMP I TYPE (Return from subroutine) |
+| 0220    | 0000001000001   | CHAR (ASCII 'A')                    |
+```
+
+Assembler is directly executed by the machine, **no compiling** required
+
+Assembler introduces an **Instruction Set** to be human-readeable (HALT, JMP, CLA, ...)
 
 ---
 
@@ -814,6 +814,15 @@ Programmers had to write instructions in absolute machine code—long strings of
 ##### Why it was a breakthrough
 
 Hopper realized that if a computer could do math, it could translate English words into machine code automatically.
+
+---
+
+## One code for many machines
+
+<div class="container-images">
+<img src="/images/Compiler-diagram.png">
+</div>
+
 
 ---
 
@@ -910,17 +919,6 @@ With explantion:
 
 ```
 
-
-
----
-
-## One code for many machines
-
-<div class="container-images">
-<img src="/images/Compiler-diagram.png">
-</div>
-
-
 ---
 
 ## COBOL (curiosities)
@@ -936,6 +934,621 @@ COBOL systems handle about **3 Trillion of dollars in transaction per day!**
 About **95% of ATM transactions** still run on COBOL code
 
 Banks and governments are actively seeking for new COBOL developers to maintain the systems beacuse the original workforce is retireing. They do pay well.
+
+---
+
+### (1960s–1970s)
+
+# The Software and Chip Era
+
+## Software ecosystems begin and computers shrink
+
+---
+
+## Before and after
+
+<div class="container-images">
+<img src="/images/discrete-circuit-electronics-without%20board.jpg">
+<img src="/images/univac-discrete-transisotr-board.jpg">
+<img src="/images/intel_4004_designers.jpg">
+</div>
+
+
+From components connected with wires, to Printed Circuit Boards (PCB) and to Integrated Circuits (IC)
+
+---
+
+## Intel 4004 Integtated Circuit / Microchip (1971)
+
+
+<div class="container-images">
+<img src="/images/500px-Intel_C4004.jpg">
+<img src="/images/Intel_4004_open.png">
+<img src="/images/Chip_layout_from_the_development_phase_of_the_Intel_4004_from_1971,_the_first_microprocessor_of_the_world.jpg">
+</div>
+
+The Intel 4004 was the first of the Intel Central Processing Units (CPU)
+
+Printing thousands of transistors on one chip (silicon), avoiding wireing thousands of individual transistors by hand
+
+The computer "brains" become microscopic, cheap and reliable
+
+Note:
+
+##### Before this
+
+Engineers had to wire thousands of individual transistors together by hand on massive circuit boards. The wires were so complex that "bugs" (literal insects, or physical shorts) were common, and there was a physical limit to how small you could make the connections.
+
+##### Why it was a breakthrough
+
+Scientists figured out how to print thousands of transistors onto a single tiny silicon chip at once (Intel 4004 in 1971). This made computer "brains" microscopic, cheap, and reliable.
+
+---
+
+
+## Intel 4004 vs. ENIAC
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Specification</th>
+      <th>ENIAC</th>
+      <th>Intel 4004</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Clock frequency</td>
+      <td>5'000 Hz</td>
+      <td>750'000 Hz</td>
+    </tr>
+    <tr>
+      <td>Number of transistors / components</td>
+      <td>18'000 tubes (not transistors)</td>
+      <td>2'300 transistors</td>
+    </tr>
+    <tr>
+      <td>Operations per second (approx.)</td>
+      <td>500 operations per second</td>
+      <td>100'000 operations per second</td>
+    </tr>
+    <tr>
+      <td>Power consumption</td>
+      <td>150'000 W</td>
+      <td>< 1 W</td>
+    </tr>
+    <tr>
+      <td>Physical size</td>
+      <td>30 &times; 2 m</td>
+      <td>3 &times; 4 mm</td>
+    </tr>
+    <tr>
+      <td>Weight</td>
+      <td>27 tons (27'000'000g)</td>
+      <td>1.3 g</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+## UNIX Operating System and C language (1969 - Bell Labs)
+
+<div class="container-images">
+<img src="/images/Ritchie_Thompson_2876612463_a6e651248c_o.jpg">
+</div>
+
+Developed by Ritchie and Ken Thompson (they developed C to build UNIX)
+
+As computers got faster, they needed an "Operating System (OS)" to manage the hardware
+
+UNIX added multi-user, multitasking, portability, hierarchical file system, permissions and system call interface (shell)
+
+Linux and MacOS are based on UNIX
+
+
+Note:
+
+##### Before this
+
+Software was written for one specific machine. If you upgraded your hardware, you had to rewrite the entire program from scratch.
+
+##### Why it was a breakthrough
+
+As computers got faster, they needed an "Operating System" to manage the hardware. UNIX did this. The C language was invented to write UNIX. C was fast but portable—you could run it on *different* types of machines. Write once, run anywhere.
+
+---
+
+## Instructions directly controlling the hardware
+
+<div class="container-images">
+<img src="/images/OS_before.svg" alt="Program and hardware structure of ENIAC and Z3">
+</div>
+
+ENIAC and Z3 — program or instructions directly controlling the hardware, without a conventional operating system
+
+---
+
+## Modern UNIX-like operating system (OS)
+
+<div class="container-images">
+<img src="/images/OS_unix.svg" alt="Modern UNIX-like computer system with applications, operating system, display, input-output, and network">
+</div>
+
+Applications running above the operating system, which manages the hardware, display, I/O, and network
+
+---
+
+## The Operating System (OS) interface
+
+<div class="container-images">
+<img src="/images/teletype.gif">
+<img src="/images/unix-terminal.png">
+<img src="/images/original_mac.webp">
+</div>
+
+From teletypes that printed on paper, to screen terminals and the current Graphical User Interface (GUI)
+
+---
+
+## C Language (1972)
+
+```
+#include <stdio.h>
+
+int main() {
+    printf("Hello, World!\n");
+    return 0;
+}
+```
+
+The **C language** was invented to write the UNIX Operating System
+
+Write once, run anywhere. (it could be run on different machines thanks to the OS "layer").
+
+Most of the common software are build largely on C or C++ (successor):
+
+Linux, Windows and macOS componets, Chrome, Safari, Python, JavaScript, MySQL, Git, Adobe Suite, Unity and Unreal Engine, and countless games, mobile apps and embedded systems
+---
+
+## C language innovation
+
+<table>
+  <thead>
+    <tr>
+      <th>Feature</th>
+      <th>Why it was revolutionary</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>High-level structure</td>
+      <td>Functions, loops, variables, and readable syntax.</td>
+    </tr>
+    <tr>
+      <td>Low-level control</td>
+      <td>Direct memory access, pointers, and bit manipulation.</td>
+    </tr>
+    <tr>
+      <td>Portability</td>
+      <td>UNIX could be moved to different computers with relatively little new machine code.</td>
+    </tr>
+    <tr>
+      <td>Efficiency</td>
+      <td>C programs ran nearly as fast as assembly.</td>
+    </tr>
+    <tr>
+      <td>Small compiler</td>
+      <td>It worked well on limited hardware.</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+### (1970s–1980s)
+
+# Personal Computers
+
+## Computers move from labs to homes
+
+---
+
+## The first all-in-one home computers (1970s)
+
+<div class="container-images">
+<img src="/images/first_personal_computers.jpg">
+</div>
+
+Commodore PET (1977) -  Apple II (1979) - Radio Shack TRS-80 Model I (1977)
+
+Before computers were locked in universities and corporate labs: to use one, you had to book it and punch cards
+
+Everyday people, schools and small business could now use computers for games, writing and finances
+
+They could be programmed with BASIC (programming language), easy to learn
+
+
+Note:
+
+##### Before this
+
+Computers were massive mainframes locked in university labs or corporate basements. To use one, you had to book time and punch cards. They were viewed strictly as industrial math machines.
+
+##### Why it was a breakthrough
+
+Apple and IBM realized everyday people could use them for games, writing, and finances. Computers moved from labs to homes.
+
+---
+
+## The Graphical User Interface / GUI (1984 - Apple Macintosh)
+
+<div class="container-images">
+<img src="/images/original_mac.webp">
+</div>
+
+The first mass-market GUI computer with the mouse was the Apple Machintosh in 1984
+
+Before everything was typed with the keyboard into a command line interface
+
+A big innovation was the **mouse** (single button) with **point-and-click** as standard
+
+
+
+Note:
+
+##### Before this
+
+Using a computer meant typing text commands on a blank screen (`C:\ copy file.txt`). You had to memorize a thick manual of commands just to find a file.
+
+##### Why it was a breakthrough
+
+The Macintosh brought the mouse and clickable icons. You didn't need a manual anymore; you just pointed at a picture of a folder and dragged it.
+
+---
+
+## The break trough
+
+<div class="container-images">
+<img src="/images/mac_gui_CLI.png">
+<img src="/images/mac_gui_01.png">
+</div>
+
+The GUI avoided having to memorize commands
+
+It introduced the **drag-and-drop, double-click, pull-down menus**
+
+This made computer intuitive for non-technical users
+
+---
+
+## GUI innovations
+
+<div class="container-images">
+<img src="/images/mac_gui_02.png">
+<img src="/images/mac_gui_03.png">
+</div>
+
+It inspired the entire industry (Microsoft, Adobe, etc.)
+
+It proved that computers could be **creative tools**, not just calculators (Ada Lovelace, 1800s)
+
+---
+
+### (1960s–1990s)
+
+# The Network Revolution
+
+## Computers become connected
+
+---
+
+## The Telephone network
+
+<div class="container-images">
+<img src="/images/telephone_circuit_switching.jpg">
+<img src="/images/Telephone_network.svg" style="width: 25%">
+</div>
+
+Telephone networks used "circuit switching".
+
+A dedicated wire had to stay open for the **entire duration of a call**.
+
+**If cut, the connection died**.
+
+---
+
+## The Scientific Foundation - Packet Switching (1960s)
+
+<div class="container-images">
+<img src="/images/Packets_switching_schema.svg">
+</div>
+
+To survive a nuclear war (Cold War), the US military needed a network without a central "brain."
+
+**Packet switching broke data into small chunks** that could travel different routes and reassemble at the destination
+
+This became ARPANET (1969), the seed of the **internet**.
+
+---
+
+## ARPANET (1969-1990), network innovations
+
+<div class="container-images">
+<img src="/images/A_sketch_of_the_ARPANET_in_December_1969.png">
+<img src="/images/Arpanet_map_1973.jpg">
+<img src="/images/Arpanet_in_the_1970s.png">
+</div>
+
+**Network of networks**: Different computers and networks could communicate with one another.
+
+**IMP routers**: Interface Message Processors connected host computers and managed data routing.
+
+**Early online services**: ARPANET enabled *remote login, file transfer, and email*
+
+**TCP/IP adoption**: Its adoption in 1983 provided the foundation for today’s Internet
+
+---
+
+## The World Wide Web (1991 - Tim Berners-Lee)
+
+<div class="container-images">
+<img src="/images/Berners-Lee_announcing_W3F.jpg">
+<img src="/images/First_Web_Server.jpg">
+<img src="/images/first_web_page_CERN.png">
+</div>
+
+
+The early internet (ARPANET) was just raw terminal text. You had to know exact computer addresses and type commands to navigate ugly, nested folders. It was purely for scientists.
+
+Berners-Lee invented **HTML** (to structure documents), **HTTP** (to transfer them), and **URLs** (to find them).
+
+He gave the internet a user-friendly interface: the **"page"** with clickable **"links"**
+
+https://info.cern.ch/hypertext/WWW/TheProject.html
+
+---
+
+## CSS Cascading Style Sheets (Håkon Wium Lie, 1994)
+
+<div class="container-images">
+<img src="/images/Håkon-Wium-Lie-2009-03.jpg">
+<img src="/images/IE5_CSS1_for_mac.webp">
+</div>
+
+CSS separates content from presentation, it controls how HTML looks (colors, fonts, spacing, layout, animations)
+
+Its **“cascading”** system decides which rule wins when multiple rules apply
+
+Different browsers renders CSS a little differently
+
+---
+
+## JavaScript (Brendan Eich, 1995)
+
+<div class="container-images">
+<img src="/images/Brendan_Eich_Mozilla_Foundation_official_photo.jpg">
+<img src="/images/first_JS_script.webp">
+</div>
+
+HTML web pages were completely **static**. You could read a page, but you couldn't click a button to make something happen without the page reloading entirely.
+
+JavaScript was invented to make web pages **react** to the user (clicks, pop-ups, animations).
+
+**Interaction design on the web was born.**
+
+---
+
+### (2000s–2010s)
+
+# Modern Programming & Telecom
+
+## Coding becomes accessible + The Cloud + Wireless freedom
+
+---
+
+## Open Source (Linux, GitHub)
+
+👎 Before → Software code guarded as proprietary secrets
+
+💡 Innovation → Globally shared free community code
+
+Note:
+
+##### Before this
+
+Software code was heavily guarded as proprietary company secrets. If you wanted to build a new app, you had to write the foundational code from scratch.
+
+##### Why it was a breakthrough
+
+Developers shared code globally for free. You could build a startup using free, community-built tools.
+
+---
+
+## Cloud Computing & APIs (2000s)
+
+👎 Before → Physical servers and IT maintenance required
+
+💡 Innovation → Renting processing power and app interconnectivity
+
+Note:
+
+##### Before this
+
+If your app got popular, you had to physically buy servers, rent a cooled warehouse, and hire IT staff to maintain them.
+
+##### Why it was a breakthrough
+
+You could "rent" processing power from Amazon (AWS). APIs allowed apps to "talk" to each other seamlessly (like a weather app pulling data from a flight system).
+
+---
+
+## Mobile Networks (3G/4G/5G - 2000s to 2020s)
+
+👎 Before → Slow data and limited to voice and text
+
+💡 Innovation → High-speed digital packets for real internet access
+
+Note:
+
+##### Before this
+
+Early cell phones (1G/2G) were built for voice calls and tiny text messages. Data was painfully slow, making internet access on a phone almost useless.
+
+##### Why it was a breakthrough
+
+By turning voice and data into high-speed digital packets, mobile networks finally allowed real internet access without physical wires. This untethered the computer from the desk, enabling the app economy and constant connectivity.
+
+---
+
+### (2007 - present)
+
+# The Smartphone
+
+## The computer fits in your pocket
+
+---
+
+## The Smartphone (2007 - iPhone)
+
+👎 Before → Tiny screens, physical keyboards, clunky menus
+
+💡 Innovation → Full microprocessor and sensors behind a touch screen
+
+Note:
+
+##### Before this
+
+"Smart" phones (like Blackberries) had tiny screens, physical keyboards, and clunky menus designed for business emails. They were miniaturized computers, but still felt like tools for IT departments.
+
+##### Why it was a breakthrough
+
+The iPhone put a full microprocessor, high-speed internet connection, and advanced sensors (camera, GPS, gyroscope) behind a large, touch-responsive screen. It forced designers to invent **Responsive Design**—websites and apps that adapt to the size of the screen and the user's physical context.
+
+---
+
+### (1990s–2010s)
+
+# The Web Era
+
+## The internet evolves from read-only to interactive, then to decentralized
+
+---
+
+## Web 1.0 (1990s - The Static Web)
+
+👎 Before → Closed proprietary networks and walled gardens
+
+💡 Innovation → Global static pages connected by hyperlinks
+
+🤦‍♂️ Flaw → Passive, read-only consumption requiring HTML knowledge
+
+Note:
+
+##### Before this
+
+The internet existed mostly as closed, proprietary networks (like AOL or CompuServe) where users were limited to navigating closed "walled gardens" of content created by the providers.
+
+##### Why it was a breakthrough
+
+Web 1.0 was the era of the "read-only" web. It consisted of static HTML pages connected by hyperlinks. Anyone could publish a document to a global audience instantly.
+
+##### The Flaw
+
+It was largely passive. Average users could only consume information; creating content required knowing HTML and having server access, so most sites were just digital brochures.
+
+---
+
+## Web 2.0 (2000s - The Social Web)
+
+👎 Before → Static, disconnected pages requiring coding to share
+
+💡 Innovation → Participatory web allowing user-generated content
+
+🤦‍♂️ Flaw → Centralized monopolies controlling user data and attention
+
+Note:
+
+##### Before this
+
+The web was a vast library of static, disconnected pages. If you wanted to share your opinion or a photo, you had to code your own page or send an email. There was no easy way to interact or collaborate.
+
+##### Why it was a breakthrough
+
+Web 2.0 turned the "read-only" web into the "read-write" or "participatory" web. Platforms like Wikipedia, YouTube, and Facebook allowed anyone to upload content, comment, and collaborate without knowing how to code. AJAX and JavaScript allowed pages to update dynamically.
+
+##### The Flaw
+
+It became highly centralized. A few massive tech giants monopolized user data, attention, and algorithms, creating walled gardens that trapped user data and often compromised privacy.
+
+---
+
+## Web 3.0 (2010s–Present - The Decentralized/Semantic Web)
+
+👎 Before → User data siloed and controlled by central authorities
+
+💡 Innovation → Decentralized ownership through blockchain and tokens
+
+🤦‍♂️ Flaw → Experimental, hard to scale, and clunky user experience
+
+Note:
+
+##### Before this
+
+In the Web 2.0 era, user data was siloed and controlled by central authorities (Big Tech). Users didn't truly own their digital identities, assets, or data, and platforms could change rules or ban users at will.
+
+##### Why it was a breakthrough
+
+Web 3.0 aims to return ownership to users through blockchain technology, decentralized networks, and smart contracts. It introduces "tokens" that represent true digital ownership and allows for decentralized apps (dApps) and finance (DeFi).
+
+##### The Flaw
+
+It is currently highly experimental, hard to scale, and complex for everyday users. The user experience is often clunky, and the environmental impact of some blockchain technologies has been heavily criticized.
+
+---
+
+### (2020 – today)
+
+# Artificial Intelligence
+
+## Computers are now collaborators
+
+---
+
+## Generative AI & LLMs (ChatGPT, etc.)
+
+👎 Before → Humans had to learn computer code
+
+💡 Innovation → Computers learning and generating human language
+
+Note:
+
+##### Before this
+
+For 70 years, humans had to learn the computer's language (code). If you didn't know how to write HTML or Python, you could not build software.
+
+##### Why it was a breakthrough
+
+Now, computers have learned human language. You can describe a website in plain English, and the AI writes the code.
+
+---
+
+## Low-code / No-code tools
+
+👎 Before → Handing off designs to engineers
+
+💡 Innovation → Visual interfaces bypassing the code entirely
+
+Note:
+
+##### Before this
+
+Designers had to hand off their visual designs to engineers to make them functional, creating a bottleneck between the idea and the working product.
+
+##### Why it was a breakthrough
+
+Visual interfaces (like Webflow or Bubble) allow designers to build complex software by dragging and dropping elements, completely skipping the code.  The barrier to creating technology has never been lower. The focus is shifting from *how to write code* to *how to design good solutions*.
+
 
 ---
 
@@ -1163,576 +1776,3 @@ Data are stored on remote data centers and accessed online
 The devices that stores data are still HDDs, SSDs and magnetic tapes for backups
 
 Data are **not anymore physcially with the user**, but remotely accessed
-
-
----
-
-### (1960s–1970s)
-
-# The Software and Chip Era
-
-## Software ecosystems begin and computers shrink
-
----
-
-## Intel 4004 Integtated Circuit / Microchip (1971)
-
-
-<div class="container-images">
-<img src="/images/500px-Intel_C4004.jpg">
-<img src="/images/Intel_4004_open.png">
-<img src="/images/Chip_layout_from_the_development_phase_of_the_Intel_4004_from_1971,_the_first_microprocessor_of_the_world.jpg">
-</div>
-
-The Intel 4004 was the first of the Intel Central Processing Units (CPU)
-
-Printing thousands of transistors on one chip (silicon), avoiding wireing thousands of individual transistors by hand
-
-The computer "brains" become microscopic, cheap and reliable
-
-Note:
-
-##### Before this
-
-Engineers had to wire thousands of individual transistors together by hand on massive circuit boards. The wires were so complex that "bugs" (literal insects, or physical shorts) were common, and there was a physical limit to how small you could make the connections.
-
-##### Why it was a breakthrough
-
-Scientists figured out how to print thousands of transistors onto a single tiny silicon chip at once (Intel 4004 in 1971). This made computer "brains" microscopic, cheap, and reliable.
-
----
-
-## Before and after
-
-<div class="container-images">
-<img src="/images/discrete-circuit-electronics-without%20board.jpg">
-<img src="/images/univac-discrete-transisotr-board.jpg">
-<img src="/images/intel_4004_designers.jpg">
-</div>
-
-
-From components connected with wires, to Printed Circuit Boards (PCB) and to Integrated Circuits (IC)
-
----
-
-
-## Intel 4004 vs. ENIAC
-
-<table border="1">
-  <thead>
-    <tr>
-      <th>Specification</th>
-      <th>ENIAC</th>
-      <th>Intel 4004</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Clock frequency</td>
-      <td>5'000 Hz</td>
-      <td>750'000 Hz</td>
-    </tr>
-    <tr>
-      <td>Number of transistors / components</td>
-      <td>18'000 tubes (not transistors)</td>
-      <td>2'300 transistors</td>
-    </tr>
-    <tr>
-      <td>Operations per second (approx.)</td>
-      <td>500 operations per second</td>
-      <td>100'000 operations per second</td>
-    </tr>
-    <tr>
-      <td>Power consumption</td>
-      <td>150'000 W</td>
-      <td>< 1 W</td>
-    </tr>
-    <tr>
-      <td>Physical size</td>
-      <td>30 &times; 2 m</td>
-      <td>3 &times; 4 m</td>
-    </tr>
-    <tr>
-      <td>Weight</td>
-      <td>27 tons (27'000'000g)</td>
-      <td>1.3 g</td>
-    </tr>
-  </tbody>
-</table>
-
----
-
-## UNIX Operating System and C language (1969 - Bell Labs)
-
-<div class="container-images">
-<img src="/images/Ritchie_Thompson_2876612463_a6e651248c_o.jpg">
-</div>
-
-Developed by Ritchie and Ken Thompson (they developed C to build UNIX)
-
-As computers got faster, they needed an "Operating System (OS)" to manage the hardware
-
-UNIX added multi-user, multitasking, portability, hierarchical file system, permissions and system call interface (shell)
-
-Linux and MacOS are based on UNIX
-
-
-Note:
-
-##### Before this
-
-Software was written for one specific machine. If you upgraded your hardware, you had to rewrite the entire program from scratch.
-
-##### Why it was a breakthrough
-
-As computers got faster, they needed an "Operating System" to manage the hardware. UNIX did this. The C language was invented to write UNIX. C was fast but portable—you could run it on *different* types of machines. Write once, run anywhere.
-
----
-
-## Instructions directly controlling the hardware
-
-<div class="container-images">
-<img src="/images/OS_before.svg" alt="Program and hardware structure of ENIAC and Z3">
-</div>
-
-ENIAC and Z3 — program or instructions directly controlling the hardware, without a conventional operating system
-
----
-
-## Modern UNIX-like operating system (OS)
-
-<div class="container-images">
-<img src="/images/OS_unix.svg" alt="Modern UNIX-like computer system with applications, operating system, display, input-output, and network">
-</div>
-
-Applications running above the operating system, which manages the hardware, display, I/O, and network
-
----
-
-## The Operating System (OS) interface
-
-<div class="container-images">
-<img src="/images/teletype.gif">
-<img src="/images/unix-terminal.png">
-<img src="/images/original_mac.webp">
-</div>
-
-From teletypes that printed on paper, to screen terminals and the current Graphical User Interface (GUI)
-
----
-
-## C Language (1972)
-
-```
-#include <stdio.h>
-
-int main() {
-    printf("Hello, World!\n");
-    return 0;
-}
-```
-
-The **C language** was invented to write the UNIX Operating System
-
-Write once, run anywhere. (it could be run on different machines thanks to the OS "layer").
-
-Most of the common software are build largely on C or C++ (successor):
-
-Linux, Windows and macOS componets, Chrome, Safari, Python, JavaScript, MySQL, Git, Adobe Suite, Unity and Unreal Engine, and countless games, mobile apps and embedded systems
----
-
-## C language innovation
-
-<table>
-  <thead>
-    <tr>
-      <th>Feature</th>
-      <th>Why it was revolutionary</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>High-level structure</td>
-      <td>Functions, loops, variables, and readable syntax.</td>
-    </tr>
-    <tr>
-      <td>Low-level control</td>
-      <td>Direct memory access, pointers, and bit manipulation.</td>
-    </tr>
-    <tr>
-      <td>Portability</td>
-      <td>UNIX could be moved to different computers with relatively little new machine code.</td>
-    </tr>
-    <tr>
-      <td>Efficiency</td>
-      <td>C programs ran nearly as fast as assembly.</td>
-    </tr>
-    <tr>
-      <td>Small compiler</td>
-      <td>It worked well on limited hardware.</td>
-    </tr>
-  </tbody>
-</table>
-
----
-
-### (1970s–1980s)
-
-# Personal Computers
-
-## Computers move from labs to homes
-
----
-
-## The first all-in-one home computers (1970s)
-
-<div class="container-images">
-<img src="/images/first_personal_computers.jpg">
-</div>
-
-Commodore PET (1977) -  Apple II (1979) - Radio Shack TRS-80 Model I (1977)
-
-Before computers were locked in universities and corporate labs: to use one, you had to book it and punch cards
-
-Everyday people, schools and small business could now use computers for games, writing and finances
-
-They could be programmed with BASIC (programming language), easy to learn
-
-
-Note:
-
-##### Before this
-
-Computers were massive mainframes locked in university labs or corporate basements. To use one, you had to book time and punch cards. They were viewed strictly as industrial math machines.
-
-##### Why it was a breakthrough
-
-Apple and IBM realized everyday people could use them for games, writing, and finances. Computers moved from labs to homes.
-
----
-
-## The Graphical User Interface / GUI (1984 - Apple Macintosh)
-
-<div class="container-images">
-<img src="/images/original_mac.webp">
-</div>
-
-The first mass-market GUI computer with the mouse was the Apple Machintosh in 1984
-
-Before everything was typed with the keyboard into a command line interface
-
-A big innovation was the **mouse** (single button) with **point-and-click** as standard
-
-
-
-Note:
-
-##### Before this
-
-Using a computer meant typing text commands on a blank screen (`C:\ copy file.txt`). You had to memorize a thick manual of commands just to find a file.
-
-##### Why it was a breakthrough
-
-The Macintosh brought the mouse and clickable icons. You didn't need a manual anymore; you just pointed at a picture of a folder and dragged it.
-
----
-
-## The break trough
-
-<div class="container-images">
-<img src="/images/mac_gui_CLI.png">
-<img src="/images/mac_gui_01.png">
-</div>
-
-The GUI avoided having to memorize commands
-
-It introduced the **drag-and-drop, double-click, pull-down menus**
-
-This made computer intuitive for non-technical users
-
----
-
-## GUI innovations
-
-<div class="container-images">
-<img src="/images/mac_gui_02.png">
-<img src="/images/mac_gui_03.png">
-</div>
-
-It inspired the entire industry (Microsoft, Adobe, etc.)
-
-It proved that computers could be **creative tools**, not just calculators (Ada Lovelace, 1800s)
-
----
-
-### (1960s–1990s)
-
-# The Network Revolution
-
-## Computers become connected
-
----
-
-## The Scientific Foundation - Packet Switching (1960s)
-
-👎 Before → Dedicated wires for entire call duration
-
-💡 Innovation → Data broken into chunks traveling different routes
-
-Note:
-
-##### Before this
-
-Telephone networks used "circuit switching"—a dedicated wire had to stay open for the entire duration of a call. If a bomb cut the wire, the connection died.
-
-##### Why it matters
-
-To survive a nuclear war, the US military needed a network without a central "brain." Packet switching broke data into small chunks that could travel different routes and reassemble at the destination. This became ARPANET (1969), the seed of the internet.
-
----
-
-## The World Wide Web (1991 - Tim Berners-Lee)
-
-👎 Before → Raw terminal text and exact addresses
-
-💡 Innovation → HTML, HTTP, and URLs for user-friendly pages
-
-Note:
-
-##### Before this
-
-The early internet (ARPANET) was just raw terminal text. You had to know exact computer addresses and type commands to navigate ugly, nested folders. It was purely for scientists.
-
-##### Why it was a breakthrough
-
-Berners-Lee invented **HTML** (to structure documents), **HTTP** (to transfer them), and **URLs** (to find them). He gave the internet a user-friendly interface: the "page" with clickable "links."
-
----
-
-## JavaScript (1995)
-
-👎 Before → Completely static and non-interactive web pages
-
-💡 Innovation → Reactive web pages responding to user interaction
-
-Note:
-
-##### Before this
-
-HTML web pages were completely static. You could read a page, but you couldn't click a button to make something happen without the page reloading entirely.
-
-##### The Breakthrough
-
-JavaScript was invented to make web pages *react* to the user (clicks, pop-ups, animations). Interaction design on the web was born.
-
----
-
-### (2000s–2010s)
-
-# Modern Programming & Telecom
-
-## Coding becomes accessible + The Cloud + Wireless freedom
-
----
-
-## Open Source (Linux, GitHub)
-
-👎 Before → Software code guarded as proprietary secrets
-
-💡 Innovation → Globally shared free community code
-
-Note:
-
-##### Before this
-
-Software code was heavily guarded as proprietary company secrets. If you wanted to build a new app, you had to write the foundational code from scratch.
-
-##### Why it was a breakthrough
-
-Developers shared code globally for free. You could build a startup using free, community-built tools.
-
----
-
-## Cloud Computing & APIs (2000s)
-
-👎 Before → Physical servers and IT maintenance required
-
-💡 Innovation → Renting processing power and app interconnectivity
-
-Note:
-
-##### Before this
-
-If your app got popular, you had to physically buy servers, rent a cooled warehouse, and hire IT staff to maintain them.
-
-##### Why it was a breakthrough
-
-You could "rent" processing power from Amazon (AWS). APIs allowed apps to "talk" to each other seamlessly (like a weather app pulling data from a flight system).
-
----
-
-## Mobile Networks (3G/4G/5G - 2000s to 2020s)
-
-👎 Before → Slow data and limited to voice and text
-
-💡 Innovation → High-speed digital packets for real internet access
-
-Note:
-
-##### Before this
-
-Early cell phones (1G/2G) were built for voice calls and tiny text messages. Data was painfully slow, making internet access on a phone almost useless.
-
-##### Why it was a breakthrough
-
-By turning voice and data into high-speed digital packets, mobile networks finally allowed real internet access without physical wires. This untethered the computer from the desk, enabling the app economy and constant connectivity.
-
----
-
-### (2007 - present)
-
-# The Smartphone
-
-## The computer fits in your pocket
-
----
-
-## The Smartphone (2007 - iPhone)
-
-👎 Before → Tiny screens, physical keyboards, clunky menus
-
-💡 Innovation → Full microprocessor and sensors behind a touch screen
-
-Note:
-
-##### Before this
-
-"Smart" phones (like Blackberries) had tiny screens, physical keyboards, and clunky menus designed for business emails. They were miniaturized computers, but still felt like tools for IT departments.
-
-##### Why it was a breakthrough
-
-The iPhone put a full microprocessor, high-speed internet connection, and advanced sensors (camera, GPS, gyroscope) behind a large, touch-responsive screen. It forced designers to invent **Responsive Design**—websites and apps that adapt to the size of the screen and the user's physical context.
-
----
-
-### (1990s–2010s)
-
-# The Web Era
-
-## The internet evolves from read-only to interactive, then to decentralized
-
----
-
-## Web 1.0 (1990s - The Static Web)
-
-👎 Before → Closed proprietary networks and walled gardens
-
-💡 Innovation → Global static pages connected by hyperlinks
-
-🤦‍♂️ Flaw → Passive, read-only consumption requiring HTML knowledge
-
-Note:
-
-##### Before this
-
-The internet existed mostly as closed, proprietary networks (like AOL or CompuServe) where users were limited to navigating closed "walled gardens" of content created by the providers.
-
-##### Why it was a breakthrough
-
-Web 1.0 was the era of the "read-only" web. It consisted of static HTML pages connected by hyperlinks. Anyone could publish a document to a global audience instantly.
-
-##### The Flaw
-
-It was largely passive. Average users could only consume information; creating content required knowing HTML and having server access, so most sites were just digital brochures.
-
----
-
-## Web 2.0 (2000s - The Social Web)
-
-👎 Before → Static, disconnected pages requiring coding to share
-
-💡 Innovation → Participatory web allowing user-generated content
-
-🤦‍♂️ Flaw → Centralized monopolies controlling user data and attention
-
-Note:
-
-##### Before this
-
-The web was a vast library of static, disconnected pages. If you wanted to share your opinion or a photo, you had to code your own page or send an email. There was no easy way to interact or collaborate.
-
-##### Why it was a breakthrough
-
-Web 2.0 turned the "read-only" web into the "read-write" or "participatory" web. Platforms like Wikipedia, YouTube, and Facebook allowed anyone to upload content, comment, and collaborate without knowing how to code. AJAX and JavaScript allowed pages to update dynamically.
-
-##### The Flaw
-
-It became highly centralized. A few massive tech giants monopolized user data, attention, and algorithms, creating walled gardens that trapped user data and often compromised privacy.
-
----
-
-## Web 3.0 (2010s–Present - The Decentralized/Semantic Web)
-
-👎 Before → User data siloed and controlled by central authorities
-
-💡 Innovation → Decentralized ownership through blockchain and tokens
-
-🤦‍♂️ Flaw → Experimental, hard to scale, and clunky user experience
-
-Note:
-
-##### Before this
-
-In the Web 2.0 era, user data was siloed and controlled by central authorities (Big Tech). Users didn't truly own their digital identities, assets, or data, and platforms could change rules or ban users at will.
-
-##### Why it was a breakthrough
-
-Web 3.0 aims to return ownership to users through blockchain technology, decentralized networks, and smart contracts. It introduces "tokens" that represent true digital ownership and allows for decentralized apps (dApps) and finance (DeFi).
-
-##### The Flaw
-
-It is currently highly experimental, hard to scale, and complex for everyday users. The user experience is often clunky, and the environmental impact of some blockchain technologies has been heavily criticized.
-
----
-
-### (2020 – today)
-
-# Artificial Intelligence
-
-## Computers are now collaborators
-
----
-
-## Generative AI & LLMs (ChatGPT, etc.)
-
-👎 Before → Humans had to learn computer code
-
-💡 Innovation → Computers learning and generating human language
-
-Note:
-
-##### Before this
-
-For 70 years, humans had to learn the computer's language (code). If you didn't know how to write HTML or Python, you could not build software.
-
-##### Why it was a breakthrough
-
-Now, computers have learned human language. You can describe a website in plain English, and the AI writes the code.
-
----
-
-## Low-code / No-code tools
-
-👎 Before → Handing off designs to engineers
-
-💡 Innovation → Visual interfaces bypassing the code entirely
-
-Note:
-
-##### Before this
-
-Designers had to hand off their visual designs to engineers to make them functional, creating a bottleneck between the idea and the working product.
-
-##### Why it was a breakthrough
-
-Visual interfaces (like Webflow or Bubble) allow designers to build complex software by dragging and dropping elements, completely skipping the code.  The barrier to creating technology has never been lower. The focus is shifting from *how to write code* to *how to design good solutions*.

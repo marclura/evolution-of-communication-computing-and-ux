@@ -10,6 +10,10 @@ html {
   gap: 2rem;
 }
 
+.reveal pre {
+  width: 50%;
+}
+
 .container-images img {
   min-height: 60vh;
 }
