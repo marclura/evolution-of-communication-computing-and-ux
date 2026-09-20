@@ -532,6 +532,7 @@ Hot, big and power hungry
 <div class="container-images">
 <img src="/images/Guglielmo_Marconi.jpg">
 <img src="/images/1895%20-%20radio.jpg">
+<img src="/images/marconi-radio-antennas.webp">
 </div>
 
 Uses antennas and electromagnetic waves to send telegraph signals wirelessly over long distances
@@ -1288,24 +1289,23 @@ As computers got faster, they needed an "Operating System" to manage the hardwar
 
 ---
 
+## Instructions directly controlling the hardware
+
 <div class="container-images">
-  <figure>
-    <img src="/images/early-pc-diagram.webp"
-        alt="Program and hardware structure of ENIAC and Z3">
-    <figcaption>
-      ENIAC and Z3 — program or instructions directly controlling the hardware,
-      without a conventional operating system
-    </figcaption>
-  </figure>
-  <figure>
-    <img src="/images/OS-diagram.webp"
-        alt="Modern UNIX-like computer system with applications, operating system, display, input-output, and network">
-    <figcaption>
-      Modern UNIX-like system — applications running above the operating system,
-      which manages the hardware, display, I/O, and network
-    </figcaption>
-  </figure>
+<img src="/images/OS_before.svg" alt="Program and hardware structure of ENIAC and Z3">
 </div>
+
+ENIAC and Z3 — program or instructions directly controlling the hardware, without a conventional operating system
+
+---
+
+## Modern UNIX-like operating system (OS)
+
+<div class="container-images">
+<img src="/images/OS_unix.svg" alt="Modern UNIX-like computer system with applications, operating system, display, input-output, and network">
+</div>
+
+Applications running above the operating system, which manages the hardware, display, I/O, and network
 
 ---
 

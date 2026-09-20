@@ -10,6 +10,10 @@ html {
   gap: 2rem;
 }
 
+.container-images img {
+  min-height: 60vh;
+}
+
 /* Single image: fill full width, scale up or down */
 .container-images > img:only-child {
   width: 100%;
