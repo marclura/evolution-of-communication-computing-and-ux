@@ -1,0 +1,48 @@
+html {
+  font-size: 10px;
+}
+
+.container-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 2rem;
+}
+
+/* Single image: fill full width, scale up or down */
+.container-images > img:only-child {
+  width: 100%;
+  max-height: 60vh;
+  object-fit: contain;
+}
+
+/* Single figure: fill full width */
+.container-images > figure:only-child {
+  width: 100%;
+}
+
+.container-images > figure:only-child > img {
+  width: 100%;
+  max-height: 60vh;
+  object-fit: contain;
+}
+
+/* Multiple images: share width equally, scale up or down */
+.container-images > img:not(:only-child) {
+  min-width: 0;
+  max-height: 60vh;
+  object-fit: contain;
+}
+
+/* Multiple figures: share width equally */
+.container-images > figure:not(:only-child) {
+  flex: 1;
+  min-width: 0;
+}
+
+.container-images > figure:not(:only-child) > img {
+  width: 100%;
+  max-height: 60vh;
+  object-fit: contain;
+}
