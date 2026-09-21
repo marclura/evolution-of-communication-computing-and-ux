@@ -11,7 +11,7 @@
 ## (Prehistory 300.000 B.C. → Ancient Times 3200 B.C.)
 
 <div class="container-images">
-<img src="/images/bone_counting.png">
+<img src="../images/bone_counting.png">
 </div>
 
 Humans had to rely on their biological memory or make marks on sticks
