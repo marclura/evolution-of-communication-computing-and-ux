@@ -21,8 +21,8 @@ Humans had to rely on their biological memory or make marks on sticks
 ## Calculation (3200 B.C to 1600 A.C.)
 
 <div class="container-images">
-<img src="/images/Kalina_hunter_gatherer.jpg">
-<img src="/images/Sumer.jpg">
+<img src="images/Kalina_hunter_gatherer.jpg">
+<img src="images/Sumer.jpg">
 </div>
 
 The shift from hunter-gatherer societies to agriculture and cities created a "data problem"
@@ -49,12 +49,12 @@ The shift from hunter-gatherer societies to agriculture and cities created a "da
 ---
 
 <figure>
-  <img src="/images/abacus-mesopotamian.png" alt="Abacus-mesopotamian">
+  <img src="images/abacus-mesopotamian.png" alt="Abacus-mesopotamian">
   <figcaption>Mesopotamian Abacus - 2700/3200 B.C.</figcaption>
 </figure>
 
 <figure>
-  <img src="/images/abacus-china.jpg" alt="Abacus-china">
+  <img src="images/abacus-china.jpg" alt="Abacus-china">
   <figcaption>Chinese abacus, Suanpan - 200 B.C.</figcaption>
 </figure>
 
@@ -62,12 +62,12 @@ The shift from hunter-gatherer societies to agriculture and cities created a "da
 ---
 
 <figure>
-  <img src="/images/100_roman.webp" alt="Abacus-roman">
+  <img src="images/100_roman.webp" alt="Abacus-roman">
   <figcaption>Roman abacus - 100 A.C.</figcaption>
 </figure>
 
 <figure>
-  <img src="/images/1500_inca_abacus_Quipu.webp" alt="Abacus-inca">
+  <img src="images/1500_inca_abacus_Quipu.webp" alt="Abacus-inca">
   <figcaption>Inca abacus - 1500 A.C.</figcaption>
 </figure>
 
@@ -94,7 +94,7 @@ It could take hours or days
 ## Smoke Signals & Drum Beats
 
 <div class="container-images">
-<img src="/images/smoke.jpg">
+<img src="images/smoke.jpg">
 </div>
 
 Innovation → encoded messages into a physical medium
@@ -120,8 +120,8 @@ Extremely low bandwidth. You could only send pre-agreed, simple concepts like "d
 ## Optical Telegraph / Semaphore (1790s - Claude Chappe)
 
 <div class="container-images">
-<img src="/images/semaphore.jpg">
-<img src="/images/semaphore2.jpg">
+<img src="images/semaphore.jpg">
+<img src="images/semaphore2.jpg">
 </div>
 
 Innovation → Mechanical relay network with higher bandwidth
@@ -153,7 +153,7 @@ It relied entirely on human eyesight and clear weather. If it was foggy or dark,
 ---
 
 <div class="container-images">
-<img src="/images/manual-calculation.jpg">
+<img src="images/manual-calculation.jpg">
 </div>
 
 All math was done by hand on paper or with an abacus.
@@ -165,7 +165,7 @@ Humans made constant errors when doing long, tedious calculations like tax rolls
 ## Column method 
 
 <div class="container-images">
-<img src="/images/column_sum.jpeg">
+<img src="images/column_sum.jpeg">
 </div>
 
 (carrying digit)
@@ -175,8 +175,8 @@ Humans made constant errors when doing long, tedious calculations like tax rolls
 ## Pascaline (1642) & Leibniz Calculator (1670s)
 
 <div class="container-images">
-<img src="/images/pascaline.jpg">
-<img src="/images/leibniz.jpg">
+<img src="images/pascaline.jpg">
+<img src="images/leibniz.jpg">
 </div>
 
 Automated calculations with physical gears to automatically carry over digits
@@ -198,7 +198,7 @@ These machines used physical *gears* to automatically carry over numbers. It aut
 ## Mechanical gears
 
 <div class="container-images">
-<img src="/images/arithmometer_internal.jpg">
+<img src="images/arithmometer_internal.jpg">
 </div>
 
 ---
@@ -217,9 +217,9 @@ It wasn't just a textile revolution, it was a computing revolution
 ## Jacquard Loom (1804)
 
 <div class="container-images">
-<img src="/images/1800_punch_textile.webp">
-<img src="/images/1800_Jacquard-cards-2.jpg">
-<img src="/images/1800_card-maker.jpg">
+<img src="images/1800_punch_textile.webp">
+<img src="images/1800_Jacquard-cards-2.jpg">
+<img src="images/1800_card-maker.jpg">
 </div>
 
 Looming required tying and untying of threads manually.
@@ -244,8 +244,8 @@ Invented **punch cards** to control the loom. The machine (hardware) was separat
 ## Charles Babbage, the Analytical Engine (1830s)
 
 <div class="container-images">
-<img src="/images/analytical-engine.webp">
-<img src="/images/analytical_engine_punch_cards_open.webp">
+<img src="images/analytical-engine.webp">
+<img src="images/analytical_engine_punch_cards_open.webp">
 </div>
 
 Babbage used the Jaquard loom idea to do mathematics
@@ -263,8 +263,8 @@ His Analytical Engine was the first **mechanical computer** that used:
 ##  Ada Lovelace, the first programmer (1843)
 
 <div class="container-images">
-<img src="/images/1842%20-%20Ada%20Lovelace.png">
-<img src="/images/ada-lovelace-algorithm.jpg">
+<img src="images/1842%20-%20Ada%20Lovelace.png">
+<img src="images/ada-lovelace-algorithm.jpg">
 </div>
 
 Lovelace published the first algorithm for the Babbage's Analytical Engine
@@ -295,8 +295,8 @@ Babbage applied punch cards to a math machine. Lovelace wrote the first algorith
 ## Electricity (1752 - Benjaming Franklin)
 
 <div class="container-images">
-<img src="/images/Benjamin_Franklin.jpg">
-<img src="/images/1952%20-%20Franklin.jpg">
+<img src="images/Benjamin_Franklin.jpg">
+<img src="images/1952%20-%20Franklin.jpg">
 </div>
 
 Proved electricity exists and defined its positive and negative charges
@@ -308,8 +308,8 @@ Proved electricity exists and defined its positive and negative charges
 ## Battery (1800 - Alessandro Volta)
 
 <div class="container-images">
-<img src="/images/Alessandro_Volta.jpeg">
-<img src="/images/1800%20volta.jpeg">
+<img src="images/Alessandro_Volta.jpeg">
+<img src="images/1800%20volta.jpeg">
 </div>
 
 Invented the first battery (Voltaic Pile)
@@ -321,8 +321,8 @@ Invented the first battery (Voltaic Pile)
 ## Electromagnetism (1831 - Michael Faraday)
 
 <div class="container-images">
-<img src="/images/faraday.jpg">
-<img src="/images/electomagnetism.gif">
+<img src="images/faraday.jpg">
+<img src="images/electomagnetism.gif">
 </div>
 
 Discovered that electricity and magnetism are linked (electromagnetic induction)
@@ -343,8 +343,8 @@ Discovered that electricity and magnetism are two sides of the same coin. This i
 ## Relays (1835 - Joseph Henry)
 
 <div class="container-images">
-<img src="/images/1870s_Joseph_Henry_(1797-1878)_American_physicist,_inventor_and_first_secretary_of_the_Smithsonian_Institution_(cropped).jpg">
-<img src="/images/1831%20-%20relays-animation.gif">
+<img src="images/1870s_Joseph_Henry_(1797-1878)_American_physicist,_inventor_and_first_secretary_of_the_Smithsonian_Institution_(cropped).jpg">
+<img src="images/1831%20-%20relays-animation.gif">
 </div>
 
 Improved electromagnets and invented the relay, a key technology for long‑distance telegraph circuits
@@ -364,8 +364,8 @@ Improved electromagnets and invented the relay, a key technology for long‑dist
 ## The Electric Telegraph (1837 - Samuel Morse)
 
 <div class="container-images">
-<img src="/images/Samuel_Morse_with_his_Recorder_by_Brady,_1857.png">
-<img src="/images/telegraph_device.png">
+<img src="images/Samuel_Morse_with_his_Recorder_by_Brady,_1857.png">
+<img src="images/telegraph_device.png">
 </div>
 
 Digital encoding is used to transmit data (manually decoded by an operator)
@@ -395,9 +395,9 @@ It required trained human operators to manually translate the dots and dashes. I
 ## Morse code
 
 <div class="container-images">
-<img src="/images/1830%20telegraph%20schema.jpg">
-<img src="/images/Paper%20ticker%20tape%20of%20telegraph%20machine.png">
-<img src="/images/1830_international_morse.png">
+<img src="images/1830%20telegraph%20schema.jpg">
+<img src="images/Paper%20ticker%20tape%20of%20telegraph%20machine.png">
+<img src="images/1830_international_morse.png">
 </div>
 
 ---
@@ -405,7 +405,7 @@ It required trained human operators to manually translate the dots and dashes. I
 ## Telegraph transmission lines
 
 <div class="container-images">
-<img src="/images/telegraph-poles-in-countryside.webp">
+<img src="images/telegraph-poles-in-countryside.webp">
 </div>
 
 
@@ -414,7 +414,7 @@ It required trained human operators to manually translate the dots and dashes. I
 ## The Transatlantic Telegraph Cable (1866)
 
 <div class="container-images">
-<img src="/images/1901_Eastern_Telegraph_cables.png">
+<img src="images/1901_Eastern_Telegraph_cables.png">
 </div>
 
 Before → Communication across oceans took weeks via ship / navigation
@@ -436,9 +436,9 @@ Laying massive cables across the ocean floor physically linked the continents, a
 ## The Telephone (1876 - Alexander Graham Bell)
 
 <div class="container-images">
-<img src="/images/Alexander_Graham_Bell_1895_NPG_77_363.jpg">
-<img src="/images/The%20Telephone%201876%20-%20Alexander%20Graham%20Bell.png">
-<img src="/images/bell_telephone.png">
+<img src="images/Alexander_Graham_Bell_1895_NPG_77_363.jpg">
+<img src="images/The%20Telephone%201876%20-%20Alexander%20Graham%20Bell.png">
+<img src="images/bell_telephone.png">
 </div>
 
 
@@ -476,9 +476,9 @@ It introduced the concept of **analog signals**. For the next 100 years, the glo
 
 
 <div class="container-images">
-<img src="/images/Thomas_Edison2.jpg">
-<img src="/images/1879%20Edison%20bulb.jpg">
-<img src="/images/1880%20-%20electrification.png">
+<img src="images/Thomas_Edison2.jpg">
+<img src="images/1879%20Edison%20bulb.jpg">
+<img src="images/1880%20-%20electrification.png">
 </div>
 
 Improved the incandescent light bulb to make it a usable product (better materials, vacuum)
@@ -493,8 +493,8 @@ Invented the **phonograph** (record audio into a physical support)
 ## AC power transmission (1890 - Nikola Tesla)
 
 <div class="container-images">
-<img src="/images/Tesla_circa_1890.jpeg">
-<img src="/images/Nikola_Tesla,_with_his_equipment_Wellcome_M0014782_-_restoration2.jpg">
+<img src="images/Tesla_circa_1890.jpeg">
+<img src="images/Nikola_Tesla,_with_his_equipment_Wellcome_M0014782_-_restoration2.jpg">
 </div>
 
 Pioneer of AC (Alternating Current) electricity and modern power systems and transmission
@@ -506,9 +506,9 @@ Developed the AC induction motor
 ## Vacuum tube (1904 - John Ambrose Fleming)
 
 <div class="container-images">
-<img src="/images/John_Ambrose_Fleming_1890.png">
-<img src="/images/vacuum_tube.jpg">
-<img src="/images/vacuum_tube_2.jpg">
+<img src="images/John_Ambrose_Fleming_1890.png">
+<img src="images/vacuum_tube.jpg">
+<img src="images/vacuum_tube_2.jpg">
 </div>
 
 Electronic switch and amplifier
@@ -530,9 +530,9 @@ Hot, big and power hungry
 ## Radio / Wireless Telegraphy (1895 - Guglielmo Marconi)
 
 <div class="container-images">
-<img src="/images/Guglielmo_Marconi.jpg">
-<img src="/images/1895%20-%20radio.jpg">
-<img src="/images/marconi-radio-antennas.webp">
+<img src="images/Guglielmo_Marconi.jpg">
+<img src="images/1895%20-%20radio.jpg">
+<img src="images/marconi-radio-antennas.webp">
 </div>
 
 Uses antennas and electromagnetic waves to send telegraph signals wirelessly over long distances
@@ -569,7 +569,7 @@ This introduced the concept of the **wireless spectrum**. Without this discovery
 ## The Theory of Computing (1936 - Alan Turing)
 
 <div class="container-images">
-<img src="/images/Alan_turing_header.jpg">
+<img src="images/Alan_turing_header.jpg">
 </div>
 
 He described the **universal machine (Turing machine)** as an abstract model of a computer that can be programmed
@@ -595,7 +595,7 @@ Turing proved that a single, simple machine (the "Turing Machine") could solve *
 ## Z3 - Konrad Zuse (1941)
 
 <div class="container-images">
-<img src="/images/konrad-zuse-z3-d-museum800jpg.webp">
+<img src="images/konrad-zuse-z3-d-museum800jpg.webp">
 </div>
 
 First functional, program-controlled, fully automatic digital computer
@@ -607,8 +607,8 @@ It was based on relays
 ---
 
 <div class="container-images">
-<img src="/images/Z3_punch_film.png">
-<img src="/images/1941%20-%20Z3.jpeg">
+<img src="images/Z3_punch_film.png">
+<img src="images/1941%20-%20Z3.jpeg">
 </div>
 
 The code was punched (written) on 35mm film because cheap and easily available
@@ -620,7 +620,7 @@ It used about 2000 relays with a clock frequency of 5-10 Hz (about **2-4 FLOPS**
 ## ENIAC (1945)
 
 <div class="container-images">
-<img src="/images/1947%20-%20ENIAC%20Glen_Beck_and_Betty_Snyder_program_the_ENIAC_in_building_328_at_the_Ballistic_Research_Laboratory.jpg">
+<img src="images/1947%20-%20ENIAC%20Glen_Beck_and_Betty_Snyder_program_the_ENIAC_in_building_328_at_the_Ballistic_Research_Laboratory.jpg">
 </div>
 
 Build by the U.S. Army to originally compute artillery firing range tables and shell trajectories (differential equations)
@@ -647,7 +647,7 @@ Vacuum tubes were a massive leap over gears, but they were huge, consumed massiv
 ---
 
 <div class="container-images">
-<img src="/images/1945%20-%20ENIAC%20Classic_shot_of_the_ENIAC.jpg">
+<img src="images/1945%20-%20ENIAC%20Classic_shot_of_the_ENIAC.jpg">
 </div>
 
 It had 18'000 vacuum tubes and 1'500 relays
@@ -665,7 +665,7 @@ It had a clock frequency of 5'000Hz, able to do 385 multiplication or 5'000 addi
 ## Instructions loading
 
 <div class="container-images">
-<img src="/images/eniac_programming.webp">
+<img src="images/eniac_programming.webp">
 </div>
 
 Instructions and data were loaded manually setting up panels of switches
@@ -683,7 +683,7 @@ Instructions and data were loaded manually setting up panels of switches
 ## The Transistor (1947 - Bell Labs)
 
 <div class="container-images">
-<img src="/images/1947-transistor.png">
+<img src="images/1947-transistor.png">
 </div>
 
 Solid silicon switches that replaced the vacuum tubes (fragile and burned out)
@@ -707,7 +707,7 @@ Transistors were tiny, cheap, consumed almost no power, and never burned out. Wi
 ---
 
 <div class="container-images">
-<img src="/images/1947-transisto-patent.jpg">
+<img src="images/1947-transisto-patent.jpg">
 </div>
 
 Instead of a fragile glass bulb (vaccum tubes) a transistor is a tiny piece of solid silicon (a semiconductor)
@@ -717,7 +717,7 @@ It uses a small electrical current to turn another current on or off
 ---
 
 <div class="container-images">
-<img src="/images/1947%20transistor%20form%20factors.jpg">
+<img src="images/1947%20transistor%20form%20factors.jpg">
 </div>
 
 They come in different shapes and sizes with different properties for different applications
@@ -735,7 +735,7 @@ They come in different shapes and sizes with different properties for different 
 ## Manual instructions loading
 
 <div class="container-images">
-<img src="/images/eniac_programming.webp">
+<img src="images/eniac_programming.webp">
 </div>
 
 To enter instructions in early computers, knobs and switches had to be accordingly set
@@ -795,8 +795,8 @@ Assembler introduces an **Instruction Set** to be human-readeable (HALT, JMP, CL
 ## The Compiler (1952 - Grace Hopper)
 
 <div class="container-images">
-<img src="/images/Grace_Hopper_and_UNIVAC.jpg">
-<img src="/images/500px-Grace_Murray_Hopper,_in_her_office_in_Washington_DC,_1978,_©Lynn_Gilbert.jpg">
+<img src="images/Grace_Hopper_and_UNIVAC.jpg">
+<img src="images/500px-Grace_Murray_Hopper,_in_her_office_in_Washington_DC,_1978,_©Lynn_Gilbert.jpg">
 </div>
 
 Programmers had to write instructions in absolute machine code (alphanumeric or binary strings)
@@ -820,15 +820,15 @@ Hopper realized that if a computer could do math, it could translate English wor
 ## One code for many machines
 
 <div class="container-images">
-<img src="/images/Compiler-diagram.png">
+<img src="images/Compiler-diagram.png">
 </div>
 
 
 ---
 
 <div class="container-images">
-<img src="/images/Hopper_machine_code.png">
-<img src="/images/Hopper_flow_matic.png">
+<img src="images/Hopper_machine_code.png">
+<img src="images/Hopper_flow_matic.png">
 </div>
 
 A program was specified as a sequence of subroutines and its arguments
@@ -924,7 +924,7 @@ With explantion:
 ## COBOL (curiosities)
 
 <div class="container-images">
-<img src="/images/cobol_banks.png">
+<img src="images/cobol_banks.png">
 </div>
 
 About **40% of the current core global banking system** are build on COBOL (220-800+ billions of lines of code)
@@ -948,9 +948,9 @@ Banks and governments are actively seeking for new COBOL developers to maintain 
 ## Before and after
 
 <div class="container-images">
-<img src="/images/discrete-circuit-electronics-without%20board.jpg">
-<img src="/images/univac-discrete-transisotr-board.jpg">
-<img src="/images/intel_4004_designers.jpg">
+<img src="images/discrete-circuit-electronics-without%20board.jpg">
+<img src="images/univac-discrete-transisotr-board.jpg">
+<img src="images/intel_4004_designers.jpg">
 </div>
 
 
@@ -962,9 +962,9 @@ From components connected with wires, to Printed Circuit Boards (PCB) and to Int
 
 
 <div class="container-images">
-<img src="/images/500px-Intel_C4004.jpg">
-<img src="/images/Intel_4004_open.png">
-<img src="/images/Chip_layout_from_the_development_phase_of_the_Intel_4004_from_1971,_the_first_microprocessor_of_the_world.jpg">
+<img src="images/500px-Intel_C4004.jpg">
+<img src="images/Intel_4004_open.png">
+<img src="images/Chip_layout_from_the_development_phase_of_the_Intel_4004_from_1971,_the_first_microprocessor_of_the_world.jpg">
 </div>
 
 The Intel 4004 was the first of the Intel Central Processing Units (CPU)
@@ -1035,7 +1035,7 @@ Scientists figured out how to print thousands of transistors onto a single tiny 
 ## UNIX Operating System and C language (1969 - Bell Labs)
 
 <div class="container-images">
-<img src="/images/Ritchie_Thompson_2876612463_a6e651248c_o.jpg">
+<img src="images/Ritchie_Thompson_2876612463_a6e651248c_o.jpg">
 </div>
 
 Developed by Ritchie and Ken Thompson (they developed C to build UNIX)
@@ -1062,7 +1062,7 @@ As computers got faster, they needed an "Operating System" to manage the hardwar
 ## Instructions directly controlling the hardware
 
 <div class="container-images">
-<img src="/images/OS_before.svg" alt="Program and hardware structure of ENIAC and Z3">
+<img src="images/OS_before.svg" alt="Program and hardware structure of ENIAC and Z3">
 </div>
 
 ENIAC and Z3 — program or instructions directly controlling the hardware, without a conventional operating system
@@ -1072,7 +1072,7 @@ ENIAC and Z3 — program or instructions directly controlling the hardware, with
 ## Modern UNIX-like operating system (OS)
 
 <div class="container-images">
-<img src="/images/OS_unix.svg" alt="Modern UNIX-like computer system with applications, operating system, display, input-output, and network">
+<img src="images/OS_unix.svg" alt="Modern UNIX-like computer system with applications, operating system, display, input-output, and network">
 </div>
 
 Applications running above the operating system, which manages the hardware, display, I/O, and network
@@ -1082,9 +1082,9 @@ Applications running above the operating system, which manages the hardware, dis
 ## The Operating System (OS) interface
 
 <div class="container-images">
-<img src="/images/teletype.gif">
-<img src="/images/unix-terminal.png">
-<img src="/images/original_mac.webp">
+<img src="images/teletype.gif">
+<img src="images/unix-terminal.png">
+<img src="images/original_mac.webp">
 </div>
 
 From teletypes that printed on paper, to screen terminals and the current Graphical User Interface (GUI)
@@ -1157,7 +1157,7 @@ Linux, Windows and macOS componets, Chrome, Safari, Python, JavaScript, MySQL, G
 ## The first all-in-one home computers (1970s)
 
 <div class="container-images">
-<img src="/images/first_personal_computers.jpg">
+<img src="images/first_personal_computers.jpg">
 </div>
 
 Commodore PET (1977) -  Apple II (1979) - Radio Shack TRS-80 Model I (1977)
@@ -1184,7 +1184,7 @@ Apple and IBM realized everyday people could use them for games, writing, and fi
 ## The Graphical User Interface / GUI (1984 - Apple Macintosh)
 
 <div class="container-images">
-<img src="/images/original_mac.webp">
+<img src="images/original_mac.webp">
 </div>
 
 The first mass-market GUI computer with the mouse was the Apple Machintosh in 1984
@@ -1210,8 +1210,8 @@ The Macintosh brought the mouse and clickable icons. You didn't need a manual an
 ## The break trough
 
 <div class="container-images">
-<img src="/images/mac_gui_CLI.png">
-<img src="/images/mac_gui_01.png">
+<img src="images/mac_gui_CLI.png">
+<img src="images/mac_gui_01.png">
 </div>
 
 The GUI avoided having to memorize commands
@@ -1225,8 +1225,8 @@ This made computer intuitive for non-technical users
 ## GUI innovations
 
 <div class="container-images">
-<img src="/images/mac_gui_02.png">
-<img src="/images/mac_gui_03.png">
+<img src="images/mac_gui_02.png">
+<img src="images/mac_gui_03.png">
 </div>
 
 It inspired the entire industry (Microsoft, Adobe, etc.)
@@ -1246,8 +1246,8 @@ It proved that computers could be **creative tools**, not just calculators (Ada 
 ## The Telephone network
 
 <div class="container-images">
-<img src="/images/telephone_circuit_switching.jpg">
-<img src="/images/Telephone_network.svg" style="width: 25%">
+<img src="images/telephone_circuit_switching.jpg">
+<img src="images/Telephone_network.svg" style="width: 25%">
 </div>
 
 Telephone networks used "circuit switching".
@@ -1261,7 +1261,7 @@ A dedicated wire had to stay open for the **entire duration of a call**.
 ## The Scientific Foundation - Packet Switching (1960s)
 
 <div class="container-images">
-<img src="/images/Packets_switching_schema.svg">
+<img src="images/Packets_switching_schema.svg">
 </div>
 
 To survive a nuclear war (Cold War), the US military needed a network without a central "brain."
@@ -1275,9 +1275,9 @@ This became ARPANET (1969), the seed of the **internet**.
 ## ARPANET (1969-1990), network innovations
 
 <div class="container-images">
-<img src="/images/A_sketch_of_the_ARPANET_in_December_1969.png">
-<img src="/images/Arpanet_map_1973.jpg">
-<img src="/images/Arpanet_in_the_1970s.png">
+<img src="images/A_sketch_of_the_ARPANET_in_December_1969.png">
+<img src="images/Arpanet_map_1973.jpg">
+<img src="images/Arpanet_in_the_1970s.png">
 </div>
 
 **Network of networks**: Different computers and networks could communicate with one another.
@@ -1293,9 +1293,9 @@ This became ARPANET (1969), the seed of the **internet**.
 ## The World Wide Web (1991 - Tim Berners-Lee)
 
 <div class="container-images">
-<img src="/images/Berners-Lee_announcing_W3F.jpg">
-<img src="/images/First_Web_Server.jpg">
-<img src="/images/first_web_page_CERN.png">
+<img src="images/Berners-Lee_announcing_W3F.jpg">
+<img src="images/First_Web_Server.jpg">
+<img src="images/first_web_page_CERN.png">
 </div>
 
 
@@ -1312,8 +1312,8 @@ https://info.cern.ch/hypertext/WWW/TheProject.html
 ## CSS Cascading Style Sheets (Håkon Wium Lie, 1994)
 
 <div class="container-images">
-<img src="/images/Håkon-Wium-Lie-2009-03.jpg">
-<img src="/images/IE5_CSS1_for_mac.webp">
+<img src="images/Håkon-Wium-Lie-2009-03.jpg">
+<img src="images/IE5_CSS1_for_mac.webp">
 </div>
 
 CSS separates content from presentation, it controls how HTML looks (colors, fonts, spacing, layout, animations)
@@ -1327,8 +1327,8 @@ Different browsers renders CSS a little differently
 ## JavaScript (Brendan Eich, 1995)
 
 <div class="container-images">
-<img src="/images/Brendan_Eich_Mozilla_Foundation_official_photo.jpg">
-<img src="/images/first_JS_script.webp">
+<img src="images/Brendan_Eich_Mozilla_Foundation_official_photo.jpg">
+<img src="images/first_JS_script.webp">
 </div>
 
 HTML web pages were completely **static**. You could read a page, but you couldn't click a button to make something happen without the page reloading entirely.
@@ -1350,8 +1350,8 @@ JavaScript was invented to make web pages **react** to the user (clicks, pop-ups
 ## Open Source (GNU Project, Richard Stallman 1983)
 
 <div class="container-images">
-<img src="/images/Heckert_GNU_white.svg">
-<img src="/images/Richard_Stallman.jpg">
+<img src="images/Heckert_GNU_white.svg">
+<img src="images/Richard_Stallman.jpg">
 </div>
 
 Software code was heavily guarded as proprietary company secrets.
@@ -1367,8 +1367,8 @@ You could build a startup using free, community-built tools
 ## Open Source libraries, OS and codebases
 
 <div class="container-images">
-<img src="/images/linux_tux.svg">
-<img src="/images/Github_UI.png">
+<img src="images/linux_tux.svg">
+<img src="images/Github_UI.png">
 </div>
 
 **Around 90-97% of modern commercial software contains open-source components**
@@ -1382,8 +1382,8 @@ WordPress, PHP, NGINX/Apache, JavaScript, Python, Node.js, PostgreSQL, Git are a
 ## Cloud Computing & APIs (2000s)
 
 <div class="container-images">
-<img src="/images/local_server_computing.png">
-<img src="/images/AWS.png">
+<img src="images/local_server_computing.png">
+<img src="images/AWS.png">
 </div>
 
 To run your business, you had to physically buy servers, rent a cooled warehouse, and hire IT staff to maintain them.
@@ -1397,8 +1397,8 @@ Cloud Computing allowed to **"rent"** processing power, for example from Amazon 
 ## Mobile Networks (3G/4G/5G - 2000s to 2020s)
 
 <div class="container-images">
-<img src="/images/Nokia_3310_grey_all_sides.jpg">
-<img src="/images/5G_tower.png">
+<img src="images/Nokia_3310_grey_all_sides.jpg">
+<img src="images/5G_tower.png">
 </div>
 
 Early cell phones (1G/2G) were built for voice calls and tiny text messages.
@@ -1422,8 +1422,8 @@ This untethered the computer from the desk, enabling the **app economy** and **c
 ## The Smartphone (2007 - iPhone)
 
 <div class="container-images">
-<img src="/images/black_berry.png">
-<img src="/images/iphone_2007_steve_jobs.webp">
+<img src="images/black_berry.png">
+<img src="images/iphone_2007_steve_jobs.webp">
 </div>
 
 "Smart" phones (like Blackberries) had tiny screens, physical keyboards, and clunky menus designed for business emails.
@@ -1447,7 +1447,7 @@ It forced designers to invent **Responsive Design**—websites and apps that ada
 ## Web 1.0 (1990s - The Static Web)
 
 <div class="container-images">
-<img src="/images/AOL_1990.jpg">
+<img src="images/AOL_1990.jpg">
 </div>
 
 The internet existed mostly as closed, **proprietary networks** (like AOL or CompuServe) where users were limited to navigating closed "walled gardens" of content created by the providers.
@@ -1461,9 +1461,9 @@ It was largely passive. Average users could only consume information; **creating
 ## Web 2.0 (2000s - The Social Web)
 
 <div class="container-images">
-<img src="/images/myspace.avif">
-<img src="/images/FirstVersions_Thefacebook-login-screenshot.png">
-<img src="/images/first_youtube.png">
+<img src="images/myspace.avif">
+<img src="images/FirstVersions_Thefacebook-login-screenshot.png">
+<img src="images/first_youtube.png">
 </div>
 
 The web was a vast library of **static, disconnected pages**, there was no easy way to interact or collaborate.
@@ -1481,7 +1481,7 @@ It became highly centralized. A few massive tech giants monopolized user data, a
 ## Web 3.0 (2010s–Present - The Decentralized/Semantic Web)
 
 <div class="container-images">
-<img src="/images/web3.avif">
+<img src="images/web3.avif">
 </div>
 
 Web 2.0 centralized user data under Big Tech, limiting digital ownership of data, identies and assets.
@@ -1505,7 +1505,7 @@ It remains experimental, complex, difficult to scale, and environmentally contro
 ## Generative AI & LLMs (ChatGPT, etc.)
 
 <div class="container-images">
-<img src="/images/will_smith_spaghetti_AI.webp">
+<img src="images/will_smith_spaghetti_AI.webp">
 </div>
 
 For 70 years, humans had to learn the computer's language (code).
@@ -1537,7 +1537,7 @@ The focus is shifting from **how to write code** to **how to design good solutio
 ## How data in computer is defined (bit)
 
 <div class="container-images">
-<img src="/images/bit_on_off.png">
+<img src="images/bit_on_off.png">
 </div>
 
 Generally speaking, the smallest information that exists is **binary**, meaning only **2 states**
@@ -1549,7 +1549,7 @@ This binary information is called in the computer world a **bit** that can have 
 ## 8 bits = 1 Byte
 
 <div class="container-images">
-<img src="/images/byte.png">
+<img src="images/byte.png">
 </div>
 
 The size of data is usually expressed in **Bytes**
@@ -1575,8 +1575,8 @@ The size of data is usually expressed in **Bytes**
 ## Punch cards (1940s-1970s)
 
 <div class="container-images">
-<img src="/images/punch_cards_stack.avif">
-<img src="/images/punch_cards_pile.webp">
+<img src="images/punch_cards_stack.avif">
+<img src="images/punch_cards_pile.webp">
 </div>
 
 Every card contained one instruction (line of code) or data
@@ -1592,8 +1592,8 @@ Storage capacity of about **80 bytes** (1 byte = 1 character)
 ## Punch cards (1940s-1970s)
 
 <div class="container-images">
-<img src="/images/mp3_file.webp">
-<img src="/images/punch_cards_pile.webp">
+<img src="images/mp3_file.webp">
+<img src="images/punch_cards_pile.webp">
 </div>
 
 To **store** an average Spotify song (3.5 minutes, 8.4MB):
@@ -1607,8 +1607,8 @@ To load them into a computer, it would taken about **2h and 11 minutes**!
 ## Paper tape (1940s-1970s)
 
 <div class="container-images">
-<img src="/images/punch_tape.png">
-<img src="/images/punch_tape_1.jpg">
+<img src="images/punch_tape.png">
+<img src="images/punch_tape_1.jpg">
 </div>
 
 Paper tape stored one character per punched row.
@@ -1622,8 +1622,8 @@ Its capacity depended on the tape length and coding system (from 5 to 8 holes pe
 ## Paper tape (1940s-1970s)
 
 <div class="container-images">
-<img src="/images/mp3_file.webp">
-<img src="/images/punch_tape.png">
+<img src="images/mp3_file.webp">
+<img src="images/punch_tape.png">
 </div>
 
 To **store** an average Spotify song (3.5 minutes, 8.4MB):
@@ -1637,8 +1637,8 @@ It would have taken about **7h 47 minutes** to load it into a computer
 ## Magnetic Core Memory (1950s–1970s)
 
 <div class="container-images">
-<img src="/images/magnetc_core_memory_1.jpg">
-<img src="/images/magnetic_core_memory_2.jpg">
+<img src="images/magnetc_core_memory_1.jpg">
+<img src="images/magnetic_core_memory_2.jpg">
 </div>
 
 Magnetic-core memory stored **one bit** per **ferrite core**
@@ -1652,8 +1652,8 @@ In the late 1970s systems, the capacity was several MegaBytes of memory (million
 ## Magnetic tape (from 1950s)
 
 <div class="container-images">
-<img src="/images/magnetic_tape_50s.avif">
-<img src="/images/magnetic_tape_1964.avif">
+<img src="images/magnetic_tape_50s.avif">
+<img src="images/magnetic_tape_1964.avif">
 </div>
 
 Cheap sequential storage for data storage and backups
@@ -1667,8 +1667,8 @@ The first tape reels could store about 3MB each, today up to 90TB each (about 30
 ## Magnetic tape today
 
 <div class="container-images">
-<img src="/images/tape-lto-backup.webp">
-<img src="/images/LTO_tape_unspooled.png">
+<img src="images/tape-lto-backup.webp">
+<img src="images/LTO_tape_unspooled.png">
 </div>
 
 Today it is still the most common long-term backup solution for datacenters.
@@ -1683,8 +1683,8 @@ The latest version of the current tapes (LTO-10) can store up to **90TB of data 
 ## Hard disk drives (HDDs) (from 1956)
 
 <div class="container-images">
-<img src="/images/HDD_1.png">
-<img src="/images/HDD_2.png">
+<img src="images/HDD_1.png">
+<img src="images/HDD_2.png">
 </div>
 
 The first HDD build by IBM in 1956 had a capacity of 3.75MB
@@ -1699,7 +1699,7 @@ They provide big storage capacity and faster random data access compared to magn
 ## Floppy disks (1970s–1990s)
 
 <div class="container-images">
-<img src="/images/ibm_floppy.avif">
+<img src="images/ibm_floppy.avif">
 </div>
 
 Portable magnetic storage
@@ -1715,7 +1715,7 @@ To transfer the song to the computer, it would take about **5 minutes**
 ## Optical disks (from 1980s)
 
 <div class="container-images">
-<img src="/images/CD_rom.png">
+<img src="images/CD_rom.png">
 </div>
 
 Optical discs store data using a laser that reads microscopic pits and lands
@@ -1727,9 +1727,9 @@ CD-ROM (from 1985): 700MB, DVD (from 1996): 4.7GB, Blue-ray (2006): 25GB-128GB
 ## Flash-based storage (from 2000s)
 
 <div class="container-images">
-<img src="/images/flash_usb.png">
-<img src="/images/flash_ssd.png">
-<img src="/images/flash_smart.png">
+<img src="images/flash_usb.png">
+<img src="images/flash_ssd.png">
+<img src="images/flash_smart.png">
 </div>
 
 USB drives, memory cards, SSDs (Solid State Disk), smart devices, all use NAND flash memory
@@ -1743,8 +1743,8 @@ The data storage capacity is up to varius TBs with very fast reading and writing
 ## Cloud storage (from 2010s)
 
 <div class="container-images">
-<img src="/images/cloud_storage_data_center.png">
-<img src="/images/cloud_storage_services.png">
+<img src="images/cloud_storage_data_center.png">
+<img src="images/cloud_storage_services.png">
 </div>
 
 Data are stored on remote data centers and accessed online
