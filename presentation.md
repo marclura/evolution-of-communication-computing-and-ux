@@ -1181,13 +1181,31 @@ Apple and IBM realized everyday people could use them for games, writing, and fi
 
 ---
 
-## The Graphical User Interface / GUI (1984 - Apple Macintosh)
+## The Graphical User Interface / GUI (Xerox PARC - 1970s)
+
+<div class="container-images">
+<img src="images/xerox_pc.webp">
+<img src="images/xerox_gui.webp">
+<img src="images/xerox_mouse.webp">
+</div>
+
+Xerox introduced overlapping windows, clickable icons, menus, and the computer mouse for navigation.
+
+The GUI replaced text-based command lines with a visual desktop metaphor (WYSIWYG - What You See Is What You Get)
+
+Steve Jobs and Apple engineers visited PARC in 1979, where they were demonstrated these technologies in exchange for stock options
+
+Due to high-costs, Xerox was commercially unsuccessful, allowing Apple and then Microsoft to dominate the market
+
+---
+
+## First successful GUI pc (1984 - Apple Macintosh)
 
 <div class="container-images">
 <img src="images/original_mac.webp">
 </div>
 
-The first mass-market GUI computer with the mouse was the Apple Machintosh in 1984
+The first commercially successful mass-market GUI computer with the mouse was the Apple Machintosh in 1984 (based on the Xerox innovations)
 
 Before everything was typed with the keyboard into a command line interface
 
