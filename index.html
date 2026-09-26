@@ -35,10 +35,15 @@
         slideNumber: 'c/t',
         progress: true,
         plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ],
-        minScale: 0.5,
+        minScale: 0.2,
         maxScale: 2.0,
         width: 1920,
         height: 1200,
+        margin: 0.1,
+        pdfSeparateFragments: false
+      });
+      Reveal.configure({
+        pdfMaxPagesPerSlide: 1
       });
     </script>
 

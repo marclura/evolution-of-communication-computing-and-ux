@@ -1,5 +1,7 @@
 # The evolution of communication, computing and user experience
 
+## by Marco Lurati
+
 ---
 
 # Computing as problem-solving
@@ -30,21 +32,6 @@ The shift from hunter-gatherer societies to agriculture and cities created a "da
 Human memory alone couldn't solve it (grain storage, taxes, trades, ...)
 
 **Innovation -> Externalized memory using physical devices**
-
-Note:
-
-##### Before this
-
-Humans had to rely on their biological memory or make tally marks on sticks. As villages grew into cities and trade expanded, human memory simply couldn't hold the volume of numbers needed for grain storage, taxes, and trade.
-
-##### Why it was a breakthrough
-
-The abacus "externalized" memory. Instead of holding numbers in your head, you used physical beads to represent them.
-
-##### Key Scientific/Historical Context
-
-The shift from hunter-gatherer societies to agriculture and cities created a "data problem" that human memory alone couldn't solve.
-
 
 ---
 
@@ -101,20 +88,6 @@ Innovation → encoded messages into a physical medium
 
 Flaw → Only pre-agreed simple concepts (because of the low bandwidth)
 
-Note:
-
-##### Before this
-
-If you wanted to share information with the next village, someone had to physically walk or run there. It could take hours or days.
-
-##### Why it was a breakthrough
-
-Smoke and drums were the first time humans figured out how to **encode** a message into a physical signal (puffs of smoke vs. no smoke, drum beat vs. silence) to send it instantly over a distance.
-
-##### The Flaw
-
-Extremely low bandwidth. You could only send pre-agreed, simple concepts like "danger" or "come home." You couldn't send a complex poem or a math equation.
-
 ---
 
 ## Optical Telegraph / Semaphore (1790s - Claude Chappe)
@@ -127,20 +100,6 @@ Extremely low bandwidth. You could only send pre-agreed, simple concepts like "d
 Innovation → Mechanical relay network with higher bandwidth
 
 Flaw → Required line-of-sight, clear weather and day light to work
-
-Note:
-
-##### Before this
-
-Long-distance communication was limited by the speed of a horse. If a military message had to cross Europe, it took days.
-
-##### Why it was a breakthrough
-
-Chappe invented a system where mechanical arms on a tower could be positioned into different shapes, representing letters or words. It introduced two massive concepts: the **relay network** (passing a message from tower to tower to travel hundreds of miles) and **higher bandwidth** (you could now spell out complex, specific messages in minutes instead of days).
-
-##### The Flaw
-
-It relied entirely on human eyesight and clear weather. If it was foggy or dark, the network completely went down.
 
 ---
 
@@ -183,16 +142,6 @@ Automated calculations with physical gears to automatically carry over digits
 
 It automated tedious human math and drastically reduced human error
 
-Note:
-
-##### Before this
-
-All math was done by hand on paper or with an abacus. Humans made constant errors when doing long, tedious calculations like tax rolls or astronomical measurements.
-
-##### Why it was a breakthrough
-
-These machines used physical *gears* to automatically carry over numbers. It automated tedious human math and drastically reduced human error.
-
 ---
 
 ## Mechanical gears
@@ -228,17 +177,6 @@ Looming required tying and untying of threads manually.
 
 Punch cards = Binary logic (holes = 1, no holes = 0)
 
-Note:
-
-##### Before this
-
-To create a complex pattern in fabric, a weaver had to manually tie and untie hundreds of individual threads for every single row. Changing the pattern meant days of manual rethreading.
-
-##### Why it was a breakthrough
-
-Invented **punch cards** to control the loom. The machine (hardware) was separated from the pattern (instructions/software). Change the cards, change the pattern instantly.
-
-
 ---
 
 ## Charles Babbage, the Analytical Engine (1830s)
@@ -270,16 +208,6 @@ His Analytical Engine was the first **mechanical computer** that used:
 Lovelace published the first algorithm for the Babbage's Analytical Engine
 
 Visionary recognition that computers could do more than math (music, art, etc.)
-
-Note:
-
-##### Before this
-
-All calculators could only do *one* specific math operation. If you wanted to multiply, you used a multiplying machine; if you wanted to add, you used an adding machine.
-
-##### Why it was a breakthrough
-
-Babbage applied punch cards to a math machine. Lovelace wrote the first algorithm, realizing the machine could manipulate *any* data represented by numbers, not just math. It was the concept of a "universal" machine.
 
 ---
 
@@ -329,15 +257,6 @@ Discovered that electricity and magnetism are linked (electromagnetic induction)
 
 Pioneered electric motors and generators throught his discovery
 
-Note:
-
-##### Before this
-
-Electricity and magnetism were thought to be two completely unrelated, mysterious phenomena, mostly used for parlor tricks.
-
-##### Why it matters
-Discovered that electricity and magnetism are two sides of the same coin. This is the foundational science for every electronic component, from the vacuum tube to the modern microchip.
-
 ---
 
 ## Relays (1835 - Joseph Henry)
@@ -376,20 +295,6 @@ Innovation → Electrical pulses through wires using Morse Code
 
 Flaw → Required trained human operators to translate dot and dashes
 
-Note:
-
-##### Before this
-
-The optical telegraph (Chappe) was the fastest communication, but it completely failed at night, in the rain, or in fog. You also needed a line-of-sight chain of towers, which was incredibly expensive to build and staff.
-
-##### Why it was a breakthrough
-
-Used electromagnetism to send electrical pulses through buried copper wires. It defeated weather and distance. It introduced **Morse Code**, proving human language could be translated into electrical on/off signals—the exact binary concept computers use today.
-
-##### The Flaw
-
-It required trained human operators to manually translate the dots and dashes. It was digital, but manual.
-
 ---
 
 ## Morse code
@@ -421,16 +326,6 @@ Before → Communication across oceans took weeks via ship / navigation
 
 Innovation → Physical ocean floor cables linking continents instantly
 
-Note:
-
-##### Before this
-
-Sending a message between Europe and the Americas required putting a letter on a boat. It took weeks, meaning business and governments operated on a massive delay.
-
-##### Why it was a breakthrough
-
-Laying massive cables across the ocean floor physically linked the continents, allowing data to cross the Atlantic in minutes. It was the first time the world was "networked" physically.
-
 ---
 
 ## The Telephone (1876 - Alexander Graham Bell)
@@ -447,20 +342,6 @@ Before → Telegraph could only send coded signals (binary, dashes and dots, wor
 Innovation → Converted sound waves (voice) into continuous electrical waves
 
 User experice → people could hear human voices and emotions
-
-Note:
-
-##### Before this
-
-The telegraph could only send coded, discrete signals (dots and dashes). You couldn't transmit the nuance of a human voice (tone, emotion, continuous sound).
-
-##### Why it was a breakthrough
-
-Bell figured out how to convert sound waves (analog) into continuous electrical waves and back into sound.
-
-##### Why it matters to computing
-
-It introduced the concept of **analog signals**. For the next 100 years, the global communication network would be built on analog technology, which later had to be adapted to carry digital computer data.
 
 ---
 
@@ -541,21 +422,6 @@ Without this discovery, Wi-Fi, Bluetooth, and mobile data would not exist
 
 It forced the invention of the **vacuum tube** to amplify weak radio signals
 
-
-Note:
-
-##### Before this
-
-The telegraph and telephone required a physical copper wire to be strung between Point A and Point B. You could not communicate with a moving ship, and laying wires across mountains or to remote areas was often physically impossible.
-
-##### Why it was a breakthrough
-
-Marconi proved you didn't need wires. By pushing high-frequency alternating current into an antenna, he created electromagnetic **radio waves** that traveled invisibly through the air.
-
-##### Why it matters to computing
-
-This introduced the concept of the **wireless spectrum**. Without this discovery, Wi-Fi, Bluetooth, and mobile data would not exist. It also forced the invention of the **"Vacuum Tube"** to amplify weak radio signals.
-
 ---
 
 ### (1900–1940s)
@@ -579,16 +445,6 @@ Its key idea is that **one machine can perform any computable task** if given th
 No need for a different machine for each problem
 
 (central role in breaking the **Enigma code** during WWII)
-
-Note:
-
-##### Before this
-
-If you wanted a machine to solve a new math problem, you had to build a completely new physical machine for that specific problem.
-
-##### Why it was a breakthrough
-
-Turing proved that a single, simple machine (the "Turing Machine") could solve *any* solvable problem, just by changing its instructions. We didn't need a different machine for every problem—we just needed one "Universal" machine and code.
 
 ---
 
@@ -628,21 +484,6 @@ Build by the U.S. Army to originally compute artillery firing range tables and s
 It has been use also for advanced calculation on the Manhattan Project (nuclear energy and weapons)
 
 Very fast for at the time beacuse it used **vacuum tubes** and was huge
-
-
-Note:
-
-##### Before this
-
-Calculators were mechanical. Gears took time to turn, limiting how fast massive calculations (like artillery firing tables for WWII) could be done.
-
-##### Why it was a breakthrough
-
-The first general-purpose electronic computer. It used **Vacuum Tubes**—glass bulbs that controlled the flow of electricity, acting as lightning-fast electronic switches. It replaced mechanical gears, doing math in seconds instead of weeks.
-
-### The Breakthrough & The Flaw
-
-Vacuum tubes were a massive leap over gears, but they were huge, consumed massive power, and burned out constantly. To program ENIAC, you had to physically rewire it with thick cables for days just to change the calculation.
 
 ---
 
@@ -689,20 +530,6 @@ Instructions and data were loaded manually setting up panels of switches
 Solid silicon switches that replaced the vacuum tubes (fragile and burned out)
 
 Transistors were tiny, cheap, consumed almost no power and never burned out
-
-Note:
-
-##### Before this
-
-Computers like ENIAC used vacuum tubes, which were fragile glass bulbs that generated massive heat, consumed entire rooms, and burned out like lightbulbs. You couldn't build anything bigger or more complex because the machine would melt or break down.
-
-##### Why it was a breakthrough
-
-The transistor replaced the vacuum tube. Instead of a fragile glass bulb, a transistor is a tiny piece of solid silicon (a semiconductor) that uses a small electrical current to turn another current on or off.
-
-##### Why this changed everything
-
-Transistors were tiny, cheap, consumed almost no power, and never burned out. Without the transistor, the modern computer, the internet, and the smartphone would be physically impossible.
 
 ---
 
@@ -805,16 +632,6 @@ Only specific machine's hardware could understand those instructions
 
 Hopper realized that if a computer could do math, it could translate English words into machine code automatically
 
-Note:
-
-##### Before this
-
-Programmers had to write instructions in absolute machine code—long strings of `1`s and `0`s` or cryptic hexadecimal numbers that only the specific machine's hardware understood.
-
-##### Why it was a breakthrough
-
-Hopper realized that if a computer could do math, it could translate English words into machine code automatically.
-
 ---
 
 ## One code for many machines
@@ -873,16 +690,6 @@ Programmers could **write human** readeable code instead of machine code.
 Coding time dropped from months to hours
 
 Machine-independent languages that could be compiled into different machine codes for different computers
-
-Note:
-
-##### Before this
-
-Writing a program took months of meticulously writing binary codes by hand, and it was full of human errors.
-
-##### Why it was a breakthrough
-
-Programmers could now write `PRINT "HELLO"` instead of `10101010`. Coding time dropped from months to hours. It separated the *coder* from the *machine mechanics*.
 
 ---
 
@@ -973,16 +780,6 @@ Printing thousands of transistors on one chip (silicon), avoiding wireing thousa
 
 The computer "brains" become microscopic, cheap and reliable
 
-Note:
-
-##### Before this
-
-Engineers had to wire thousands of individual transistors together by hand on massive circuit boards. The wires were so complex that "bugs" (literal insects, or physical shorts) were common, and there was a physical limit to how small you could make the connections.
-
-##### Why it was a breakthrough
-
-Scientists figured out how to print thousands of transistors onto a single tiny silicon chip at once (Intel 4004 in 1971). This made computer "brains" microscopic, cheap, and reliable.
-
 ---
 
 
@@ -1045,17 +842,6 @@ As computers got faster, they needed an "Operating System (OS)" to manage the ha
 UNIX added multi-user, multitasking, portability, hierarchical file system, permissions and system call interface (shell)
 
 Linux and MacOS are based on UNIX
-
-
-Note:
-
-##### Before this
-
-Software was written for one specific machine. If you upgraded your hardware, you had to rewrite the entire program from scratch.
-
-##### Why it was a breakthrough
-
-As computers got faster, they needed an "Operating System" to manage the hardware. UNIX did this. The C language was invented to write UNIX. C was fast but portable—you could run it on *different* types of machines. Write once, run anywhere.
 
 ---
 
@@ -1168,17 +954,6 @@ Everyday people, schools and small business could now use computers for games, w
 
 They could be programmed with BASIC (programming language), easy to learn
 
-
-Note:
-
-##### Before this
-
-Computers were massive mainframes locked in university labs or corporate basements. To use one, you had to book time and punch cards. They were viewed strictly as industrial math machines.
-
-##### Why it was a breakthrough
-
-Apple and IBM realized everyday people could use them for games, writing, and finances. Computers moved from labs to homes.
-
 ---
 
 ## The Graphical User Interface / GUI (Xerox PARC - 1970s)
@@ -1210,18 +985,6 @@ The first commercially successful mass-market GUI computer with the mouse was th
 Before everything was typed with the keyboard into a command line interface
 
 A big innovation was the **mouse** (single button) with **point-and-click** as standard
-
-
-
-Note:
-
-##### Before this
-
-Using a computer meant typing text commands on a blank screen (`C:\ copy file.txt`). You had to memorize a thick manual of commands just to find a file.
-
-##### Why it was a breakthrough
-
-The Macintosh brought the mouse and clickable icons. You didn't need a manual anymore; you just pointed at a picture of a folder and dragged it.
 
 ---
 

@@ -54,3 +54,32 @@ html {
   max-height: 60vh;
   object-fit: contain;
 }
+
+@media print {
+    /* Override viewport-based image heights for print */
+    .container-images img,
+    .container-images > img:only-child,
+    .container-images > figure:only-child > img,
+    .container-images > img:not(:only-child),
+    .container-images > figure:not(:only-child) > img {
+      min-height: auto !important;
+      max-height: 500px !important;
+    }
+
+    /* Ensure slides don't break mid-content */
+    .reveal .slides section {
+      page-break-after: always;
+      page-break-inside: avoid;
+    }
+
+    /* Scale down headings if they overflow */
+    .reveal h1 { font-size: 2.2em !important; }
+    .reveal h2 { font-size: 1.8em !important; }
+    .reveal h3 { font-size: 1.4em !important; }
+
+    /* Constrain pre/code blocks */
+    .reveal pre {
+      width: 80% !important;
+      font-size: 0.6em !important;
+    }
+}
